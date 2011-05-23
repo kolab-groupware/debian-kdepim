@@ -1,3 +1,8 @@
+kdepim (4:4.4.11.1+l10n-0r0) UNRELEASED; urgency=low
+
+
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Mon, 23 May 2011 22:47:33 +0200
+
 kdepim (4:4.4.11.1-1) experimental; urgency=low
 
   * New upstream release.
