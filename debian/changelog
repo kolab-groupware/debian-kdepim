@@ -1,4 +1,4 @@
-kdepim (4:4.4.11.1+l10n-0r0) UNRELEASED; urgency=low
+kdepim (4:4.4.11.1+l10n-0r2) UNRELEASED; urgency=low
 
   * Provide translations in orig-l10n tarball. Also add kdepim_l10n.diff to
     install that translations.
