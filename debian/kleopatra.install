@@ -2,6 +2,10 @@ usr/bin/kgpgconf
 usr/bin/kleopatra
 usr/bin/kwatchgnupg
 usr/lib/kde4/kcm_kleopatra.so
+usr/lib/libkleopatraclientcore.so.0
+usr/lib/libkleopatraclientcore.so.0.3.0
+usr/lib/libkleopatraclientgui.so.0
+usr/lib/libkleopatraclientgui.so.0.3.0
 usr/share/applications/kde4/kleopatra.desktop
 usr/share/applications/kde4/kleopatra_import.desktop
 usr/share/doc/kde/HTML/ca/kleopatra/common
@@ -89,6 +93,7 @@ usr/share/doc/kde/HTML/uk/kwatchgnupg/index.docbook
 usr/share/icons/oxygen/128x128/apps/kleopatra.png
 usr/share/icons/oxygen/16x16/apps/kleopatra.png
 usr/share/icons/oxygen/22x22/apps/kleopatra.png
+usr/share/icons/oxygen/256x256/apps/kleopatra.png
 usr/share/icons/oxygen/32x32/apps/kleopatra.png
 usr/share/icons/oxygen/48x48/apps/kleopatra.png
 usr/share/icons/oxygen/64x64/apps/kleopatra.png
@@ -111,8 +116,8 @@ usr/share/kde4/apps/libkleopatra/pics/hi32-app-gpg.png
 usr/share/kde4/apps/libkleopatra/pics/hi32-app-gpgsm.png
 usr/share/kde4/apps/libkleopatra/pics/smartcard.xpm
 usr/share/kde4/services/kleopatra_config_appear.desktop
+usr/share/kde4/services/kleopatra_config_cryptooperations.desktop
 usr/share/kde4/services/kleopatra_config_dirserv.desktop
-usr/share/kde4/services/kleopatra_config_dnorder.desktop
 usr/share/kde4/services/kleopatra_config_gnupgsystem.desktop
 usr/share/kde4/services/kleopatra_decryptverifyfiles.desktop
 usr/share/kde4/services/kleopatra_decryptverifyfolders.desktop
