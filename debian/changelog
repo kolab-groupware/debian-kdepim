@@ -30,6 +30,9 @@ kdepim (4:4.5.96-0r1) UNRELEASED; urgency=low
     - libmessageviewer4 (renamed from libmessageviewer0)
   * Don't install the mobile components for now.
 
+  [ Modestas Vainius ]
+  * Wildcardize l10n stuff in *.install files.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Sep 2010 12:51:05 +0300
 
 kdepim (4:4.4.11.1+l10n-1) unstable; urgency=low
