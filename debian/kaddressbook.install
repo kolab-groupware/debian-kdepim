@@ -47,8 +47,8 @@ usr/share/kde4/apps/kontact/ksettingsdialog/kaddressbook.setdlg
 usr/share/kde4/services/kaddressbookpart.desktop
 usr/share/kde4/services/kcmldap.desktop
 usr/share/kde4/services/kontact/kaddressbookplugin.desktop
-usr/share/man/man1/kabcclient.1
 usr/share/locale/*/LC_MESSAGES/cryptopageplugin.mo
 usr/share/locale/*/LC_MESSAGES/kabcclient.mo
 usr/share/locale/*/LC_MESSAGES/kaddressbook.mo
 usr/share/locale/*/LC_MESSAGES/ktexteditorkabcbridge_plugin.mo
+usr/share/man/man1/kabcclient.1
