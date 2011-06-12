@@ -38,55 +38,6 @@ Description: Personal Information Management apps from the official KDE release
  This metapackage includes a collection of Personal Information Management
  (PIM) applications provided with the official release of KDE.
 
-Package: kdepim-dbg
-Priority: extra
-Section: debug
-Depends: ${misc:Depends}, kdepimlibs-dbg,
- kdepim  (= ${source:Version}) |
- kaddressbook (= ${binary:Version}) |
- kalarm (= ${binary:Version}) |
- kdepim-groupware (= ${binary:Version}) |
- kdepim-kresources (= ${binary:Version}) |
- kdepim-strigi-plugins (= ${binary:Version}) |
- kdepim-wizards (= ${binary:Version}) |
- kjots (= ${binary:Version}) |
- kleopatra (= ${binary:Version}) |
- kmail (= ${binary:Version}) |
- knode (= ${binary:Version}) |
- knotes (= ${binary:Version}) |
- konsolekalendar (= ${binary:Version}) |
- kontact (= ${binary:Version}) |
- korganizer (= ${binary:Version}) |
- ktimetracker (= ${binary:Version}) |
- blogilo (= ${binary:Version}) |
- libcalendarsupport4 (= ${binary:Version}) |
- libeventviews4 (= ${binary:Version}) |
- libincidenceeditorsng4 (= ${binary:Version}) |
- libkdepim4 (= ${binary:Version}) |
- libkdepimdbusinterfaces4 (= ${binary:Version}) |
- libkdgantt2-0 (= ${binary:Version}) |
- libkleo4 (= ${binary:Version}) |
- libkleopatraclientgui0 (= ${binary:Version}) |
- libkleopatraclientcore0 (= ${binary:Version}) |
- libkmanagesieve4 (= ${binary:Version}) |
- libkpgp4 (= ${binary:Version}) |
- libksieve4 (= ${binary:Version}) |
- libksieveui4 (= ${binary:Version}) |
- libmaildir4 (= ${binary:Version}) |
- libmailcommon4 (= ${binary:Version}) |
- libmessagecomposer4 (= ${binary:Version}) |
- libmessagecore4 (= ${binary:Version}) |
- libmessagelist4 (= ${binary:Version}) |
- libmessageviewer4 (= ${binary:Version}) |
- libtemplateparser4 (= ${binary:Version})
-Breaks: kdeutils-dbg (<< 4:4.0.80)
-Replaces: kdeutils-dbg (<< 4:4.0.80)
-Architecture: any
-Description: debugging symbols for kdepim
- This package contains the debugging symbols associated with kdepim.
- They will automatically be used by gdb for debugging kdepim-related
- issues.
-
 Package: akregator
 Section: web
 Architecture: any
@@ -570,3 +521,52 @@ Description: management and debugging console for akonadi
  debugging but may also prove handy in other cases.
  .
  This package is part of the KDE PIM module.
+
+Package: kdepim-dbg
+Priority: extra
+Section: debug
+Depends: ${misc:Depends}, kdepimlibs-dbg,
+ kdepim  (= ${source:Version}) |
+ kaddressbook (= ${binary:Version}) |
+ kalarm (= ${binary:Version}) |
+ kdepim-groupware (= ${binary:Version}) |
+ kdepim-kresources (= ${binary:Version}) |
+ kdepim-strigi-plugins (= ${binary:Version}) |
+ kdepim-wizards (= ${binary:Version}) |
+ kjots (= ${binary:Version}) |
+ kleopatra (= ${binary:Version}) |
+ kmail (= ${binary:Version}) |
+ knode (= ${binary:Version}) |
+ knotes (= ${binary:Version}) |
+ konsolekalendar (= ${binary:Version}) |
+ kontact (= ${binary:Version}) |
+ korganizer (= ${binary:Version}) |
+ ktimetracker (= ${binary:Version}) |
+ blogilo (= ${binary:Version}) |
+ libcalendarsupport4 (= ${binary:Version}) |
+ libeventviews4 (= ${binary:Version}) |
+ libincidenceeditorsng4 (= ${binary:Version}) |
+ libkdepim4 (= ${binary:Version}) |
+ libkdepimdbusinterfaces4 (= ${binary:Version}) |
+ libkdgantt2-0 (= ${binary:Version}) |
+ libkleo4 (= ${binary:Version}) |
+ libkleopatraclientgui0 (= ${binary:Version}) |
+ libkleopatraclientcore0 (= ${binary:Version}) |
+ libkmanagesieve4 (= ${binary:Version}) |
+ libkpgp4 (= ${binary:Version}) |
+ libksieve4 (= ${binary:Version}) |
+ libksieveui4 (= ${binary:Version}) |
+ libmaildir4 (= ${binary:Version}) |
+ libmailcommon4 (= ${binary:Version}) |
+ libmessagecomposer4 (= ${binary:Version}) |
+ libmessagecore4 (= ${binary:Version}) |
+ libmessagelist4 (= ${binary:Version}) |
+ libmessageviewer4 (= ${binary:Version}) |
+ libtemplateparser4 (= ${binary:Version})
+Breaks: kdeutils-dbg (<< 4:4.0.80)
+Replaces: kdeutils-dbg (<< 4:4.0.80)
+Architecture: any
+Description: debugging symbols for kdepim
+ This package contains the debugging symbols associated with kdepim.
+ They will automatically be used by gdb for debugging kdepim-related
+ issues.

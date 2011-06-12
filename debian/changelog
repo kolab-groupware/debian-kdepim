@@ -39,6 +39,7 @@ kdepim (4:4.6.0-0r2) UNRELEASED; urgency=low
   * Do not build mobile components for now (-DKDEPIM_BUILD_MOBILE=OFF).
   * Remove unused translation right after they dh_auto_install'ed. This
     will unclutter debian/not-installed.
+  * Move kdepim-dbg to the bottom of debian/control.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Sep 2010 12:51:05 +0300
 
