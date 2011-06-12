@@ -33,6 +33,7 @@ kdepim (4:4.6.0-0r1) UNRELEASED; urgency=low
   [ Modestas Vainius ]
   * Wildcardize l10n stuff in *.install files.
   * Wildcardize non-en documentation.
+  * Drop kdepim_l10n.diff patch, not needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Sep 2010 12:51:05 +0300
 
