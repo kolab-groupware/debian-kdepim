@@ -35,6 +35,8 @@ kdepim (4:4.6.0-0r1) UNRELEASED; urgency=low
   * Drop kdepim_l10n.diff patch, not needed.
   * Drop displaying_only_unread_issue.diff patch, applied upstream.
   * Do not build mobile components for now (-DKDEPIM_BUILD_MOBILE=OFF).
+  * Remove unused translation right after they dh_auto_install'ed. This
+    will unclutter debian/not-installed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Sep 2010 12:51:05 +0300
 
