@@ -10,15 +10,6 @@
 ./usr/share/man/sv/man1/kabcclient.1
 ./usr/share/man/uk/man1/kabcclient.1
 
-# Kpilot is dead
-./usr/share/doc/kde/HTML/pt/kpilot/common
-./usr/share/doc/kde/HTML/pt/kpilot/configuration.docbook
-./usr/share/doc/kde/HTML/pt/kpilot/faq.docbook
-./usr/share/doc/kde/HTML/pt/kpilot/index.cache.bz2
-./usr/share/doc/kde/HTML/pt/kpilot/index.docbook
-./usr/share/doc/kde/HTML/pt/kpilot/sync.docbook
-./usr/share/doc/kde/HTML/pt/kpilot/usage.docbook
-
 # These files would belong to -dev package, don't install.
 ./usr/lib/libakonadi_next.so
 ./usr/lib/libakregatorinterfaces.so
