@@ -13,9 +13,9 @@ usr/share/doc/kde/HTML/en/kabcclient/common
 usr/share/doc/kde/HTML/en/kabcclient/index.cache.bz2
 usr/share/doc/kde/HTML/en/kabcclient/index.docbook
 usr/share/doc/kde/HTML/en/kabcclient/man-kabcclient.1.docbook
-usr/share/doc/kde/HTML/es/*
-usr/share/doc/kde/HTML/nl/*
-usr/share/doc/kde/HTML/uk/*
+usr/share/doc/kde/HTML/es/kabcclient/*
+usr/share/doc/kde/HTML/nl/kabcclient/*
+usr/share/doc/kde/HTML/uk/kabcclient/*
 usr/share/icons/hicolor/128x128/apps/kaddressbook.png
 usr/share/icons/hicolor/16x16/apps/kaddressbook.png
 usr/share/icons/hicolor/22x22/apps/kaddressbook.png

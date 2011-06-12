@@ -18,7 +18,7 @@ usr/lib/libkmailprivate.so.4.6.0
 usr/share/akonadi/agents/nepomukemailfeeder.desktop
 usr/share/applications/kde4/KMail2.desktop
 usr/share/applications/kde4/kmail_view.desktop
-usr/share/doc/kde/HTML/ca/*
+usr/share/doc/kde/HTML/ca/kmail/*
 usr/share/doc/kde/HTML/en/kmail/common
 usr/share/doc/kde/HTML/en/kmail/configure.docbook
 usr/share/doc/kde/HTML/en/kmail/credits-and-licenses.docbook
@@ -30,7 +30,7 @@ usr/share/doc/kde/HTML/en/kmail/index.docbook
 usr/share/doc/kde/HTML/en/kmail/intro.docbook
 usr/share/doc/kde/HTML/en/kmail/menus.docbook
 usr/share/doc/kde/HTML/en/kmail/using-kmail.docbook
-usr/share/doc/kde/HTML/uk/*
+usr/share/doc/kde/HTML/uk/kmail/*
 usr/share/icons/hicolor/128x128/apps/kmail.png
 usr/share/icons/hicolor/16x16/apps/kmail.png
 usr/share/icons/hicolor/22x22/apps/kmail.png
