@@ -28,13 +28,13 @@ kdepim (4:4.6.0-0r1) UNRELEASED; urgency=low
     - libksieveui4
     - libmailcommon4
     - libmessageviewer4 (renamed from libmessageviewer0)
-  * Don't install the mobile components for now.
 
   [ Modestas Vainius ]
   * Wildcardize l10n stuff in *.install files.
   * Wildcardize non-en documentation.
   * Drop kdepim_l10n.diff patch, not needed.
   * Drop displaying_only_unread_issue.diff patch, applied upstream.
+  * Do not build mobile components for now (-DKDEPIM_BUILD_MOBILE=OFF).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Sep 2010 12:51:05 +0300
 

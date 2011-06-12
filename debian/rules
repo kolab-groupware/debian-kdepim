@@ -4,6 +4,9 @@ include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 libpkgs_gen_strict_local_shlibs = $(libpkgs_all_packages)
 include /usr/share/pkg-kde-tools/qt-kde-team/2/library-packages.mk
 
+override_dh_auto_configure:
+	$(overridden_command) -- -DKDEPIM_BUILD_MOBILE=OFF
+
 .PHONY: override_dh_auto_test
 
 # Strict local dependencies (there are no external ones anyway)
