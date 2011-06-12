@@ -1,8 +1,6 @@
 usr/bin/konsolekalendar
 usr/share/applications/kde4/konsolekalendar.desktop
-usr/share/doc/kde/HTML/en/konsolekalendar/common
-usr/share/doc/kde/HTML/en/konsolekalendar/index.cache.bz2
-usr/share/doc/kde/HTML/en/konsolekalendar/index.docbook
+usr/share/doc/kde/HTML/*/konsolekalendar/
 usr/share/icons/hicolor/128x128/apps/konsolekalendar.png
 usr/share/icons/hicolor/16x16/apps/konsolekalendar.png
 usr/share/icons/hicolor/22x22/apps/konsolekalendar.png

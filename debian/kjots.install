@@ -5,9 +5,7 @@ usr/lib/kde4/kontact_kjotsplugin.so
 usr/lib/kde4/plasma_applet_akonotes_list.so
 usr/lib/kde4/plasma_applet_akonotes_note.so
 usr/share/applications/kde4/Kjots.desktop
-usr/share/doc/kde/HTML/en/kjots/common
-usr/share/doc/kde/HTML/en/kjots/index.cache.bz2
-usr/share/doc/kde/HTML/en/kjots/index.docbook
+usr/share/doc/kde/HTML/*/kjots/
 usr/share/icons/hicolor/128x128/apps/kjots.png
 usr/share/icons/hicolor/16x16/apps/kjots.png
 usr/share/icons/hicolor/22x22/apps/kjots.png

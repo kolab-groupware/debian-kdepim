@@ -4,12 +4,8 @@ usr/bin/kwatchgnupg
 usr/lib/kde4/kcm_kleopatra.so
 usr/share/applications/kde4/kleopatra.desktop
 usr/share/applications/kde4/kleopatra_import.desktop
-usr/share/doc/kde/HTML/en/kleopatra/common
-usr/share/doc/kde/HTML/en/kleopatra/index.cache.bz2
-usr/share/doc/kde/HTML/en/kleopatra/index.docbook
-usr/share/doc/kde/HTML/en/kwatchgnupg/common
-usr/share/doc/kde/HTML/en/kwatchgnupg/index.cache.bz2
-usr/share/doc/kde/HTML/en/kwatchgnupg/index.docbook
+usr/share/doc/kde/HTML/*/kleopatra/
+usr/share/doc/kde/HTML/*/kwatchgnupg/
 usr/share/icons/hicolor/128x128/apps/kleopatra.png
 usr/share/icons/hicolor/16x16/apps/kleopatra.png
 usr/share/icons/hicolor/22x22/apps/kleopatra.png
