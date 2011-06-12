@@ -10,6 +10,18 @@
 ./usr/share/man/sv/man1/kabcclient.1
 ./usr/share/man/uk/man1/kabcclient.1
 
+# This is mobile stuff which we do not build at the moment
+# Used by mobile/mail/ and messageviewer/viewer_p.cpp (ifdef'ed)
+./usr/share/kde4/apps/libmessageviewer/pics/mobile_status_actionitem.png
+./usr/share/kde4/apps/libmessageviewer/pics/mobile_status_attachment.png
+./usr/share/kde4/apps/libmessageviewer/pics/mobile_status_encrypted.png
+./usr/share/kde4/apps/libmessageviewer/pics/mobile_status_forwarded.png
+./usr/share/kde4/apps/libmessageviewer/pics/mobile_status_important.png
+./usr/share/kde4/apps/libmessageviewer/pics/mobile_status_replied.png
+./usr/share/kde4/apps/libmessageviewer/pics/mobile_status_signed.png
+./usr/share/kde4/apps/messageviewer/about/main_mobile.html
+./usr/share/kde4/apps/messageviewer/about/messageviewer_mobile.css
+
 # These files would belong to -dev package, don't install.
 ./usr/lib/libakonadi_next.so
 ./usr/lib/libakregatorinterfaces.so
@@ -60,12 +72,4 @@
 ./usr/share/dbus-1/interfaces/org.kde.korganizer.Korganizer.xml
 ./usr/share/dbus-1/interfaces/org.kde.ktimetracker.ktimetracker.xml
 ./usr/share/dbus-1/interfaces/org.kde.mailtransport.service.xml
-./usr/share/kde4/apps/libmessageviewer/pics/mobile_status_actionitem.png
-./usr/share/kde4/apps/libmessageviewer/pics/mobile_status_attachment.png
-./usr/share/kde4/apps/libmessageviewer/pics/mobile_status_encrypted.png
-./usr/share/kde4/apps/libmessageviewer/pics/mobile_status_forwarded.png
-./usr/share/kde4/apps/libmessageviewer/pics/mobile_status_important.png
-./usr/share/kde4/apps/libmessageviewer/pics/mobile_status_replied.png
-./usr/share/kde4/apps/libmessageviewer/pics/mobile_status_signed.png
-./usr/share/kde4/apps/messageviewer/about/main_mobile.html
-./usr/share/kde4/apps/messageviewer/about/messageviewer_mobile.css
+
