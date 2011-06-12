@@ -9,27 +9,26 @@ kdepim (4:4.6.0-0r2) UNRELEASED; urgency=low
   * Refresh patches.
   * Add build dependency on libgrantlee-dev.
   * Add new library packages:
-    - libincidenceeditors4
-    - libkdepimdbusinterfaces4
-    - libmessagecomposer4
-    - libtemplateparser4
+    - libincidenceeditors4;
+    - libkdepimdbusinterfaces4;
+    - libmessagecomposer4;
+    - libtemplateparser4;
   * Update lintian overrides.
 
   [ Jan Losinski ]
   * Update installed files.
 
   [ Adrian von Bidder ]
-  * Adapt to 4.6 git snapshot
-    - Adjust build dependencies
+  * Adjust build dependencies.
   * Add new library packages:
-    - libcalendarsupport4
-    - libincidenceeditorsng4 (renamed from libincidenceeditors4)
-    - libeventviews4
-    - libkdgantt2-0
-    - libkmanagesieve4
-    - libksieveui4
-    - libmailcommon4
-    - libmessageviewer4 (renamed from libmessageviewer0)
+    - libcalendarsupport4;
+    - libincidenceeditorsng4 (renamed from libincidenceeditors4);
+    - libeventviews4;
+    - libkdgantt2-0;
+    - libkmanagesieve4;
+    - libksieveui4;
+    - libmailcommon4;
+    - libmessageviewer4 (renamed from libmessageviewer0).
 
   [ Modestas Vainius ]
   * Wildcardize l10n stuff in *.install files.
