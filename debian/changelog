@@ -41,6 +41,7 @@ kdepim (4:4.6.0-0r2) UNRELEASED; urgency=low
     will unclutter debian/not-installed.
   * Move kdepim-dbg to the bottom of debian/control.
   * Drop ${perl:Depends} from kdepim-groupware Depends.
+  * Add ${perl:Depends} to libkpgp4 Depends.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Sep 2010 12:51:05 +0300
 

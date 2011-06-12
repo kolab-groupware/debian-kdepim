@@ -372,7 +372,7 @@ Description: sieve management library
 Package: libkpgp4
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}
 Conflicts: kde-l10n
 Description: gpg based crypto library
  This package contains libkpgp4, a gnupg-library for KMail and other parts of
