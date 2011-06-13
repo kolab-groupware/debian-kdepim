@@ -1,6 +1,7 @@
 kdepim (4:4.6.0-0r3) UNRELEASED; urgency=low
 
-  * TODO: copyright, package descriptions.
+  * TODO: copyright, package descriptions,
+          figure out how to pull kdepim-runtime 4:4.6 (Breaks maybe?).
 
   * New upstream release.
 
