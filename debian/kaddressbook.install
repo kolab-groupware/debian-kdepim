@@ -27,13 +27,5 @@ usr/share/locale/*/LC_MESSAGES/cryptopageplugin.mo
 usr/share/locale/*/LC_MESSAGES/kabcclient.mo
 usr/share/locale/*/LC_MESSAGES/kaddressbook.mo
 usr/share/locale/*/LC_MESSAGES/ktexteditorkabcbridge_plugin.mo
-usr/share/man/de/man1/kabcclient.1
-usr/share/man/es/man1/kabcclient.1
-usr/share/man/et/man1/kabcclient.1
-usr/share/man/fr/man1/kabcclient.1
-usr/share/man/it/man1/kabcclient.1
+usr/share/man/*/man1/kabcclient.1
 usr/share/man/man1/kabcclient.1
-usr/share/man/pt/man1/kabcclient.1
-usr/share/man/pt_BR/man1/kabcclient.1
-usr/share/man/sv/man1/kabcclient.1
-usr/share/man/uk/man1/kabcclient.1
