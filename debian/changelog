@@ -9,6 +9,7 @@ kdepim (4:4.4.11.1+l10n-3) UNRELEASED; urgency=low
     upstream_in-c4_String-c4_String-only-call-memset-if-the-numbe.patch.
 
   [ Modestas Vainius ]
+  * Wildcardize program translations in install files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 08 Jun 2012 11:18:32 +0200
 
