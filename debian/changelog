@@ -46,6 +46,7 @@ kdepim (4:4.7.1-0r0) UNRELEASED; urgency=low
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.7.1.
   * Bump build depends on other KDE SC packages to 4:4.7.
+  * Bump shared-desktop-ontologies build depend to 0.6.50.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Sep 2010 12:51:05 +0300
 
