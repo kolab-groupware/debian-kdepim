@@ -1,4 +1,4 @@
-kdepim (4:4.6.0-0r3) UNRELEASED; urgency=low
+kdepim (4:4.7.1-0r0) UNRELEASED; urgency=low
 
   * TODO: copyright, package descriptions,
           figure out how to pull kdepim-runtime 4:4.6 (Breaks maybe?).
@@ -42,6 +42,10 @@ kdepim (4:4.6.0-0r3) UNRELEASED; urgency=low
   * Move kdepim-dbg to the bottom of debian/control.
   * Drop ${perl:Depends} from kdepim-groupware Depends.
   * Add ${perl:Depends} to libkpgp4 Depends.
+
+  [ José Manuel Santamaría Lema ]
+  * Bump kde-sc-dev-latest build dependency to 4:4.7.1.
+  * Bump build depends on other KDE SC packages to 4:4.7.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Sep 2010 12:51:05 +0300
 
