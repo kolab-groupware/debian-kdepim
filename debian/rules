@@ -9,26 +9,6 @@ override_dh_auto_configure:
 
 .PHONY: override_dh_auto_test
 
-rm_mo = rm -f debian/tmp/usr/share/locale/*/LC_MESSAGES/$1
-
-override_dh_auto_install:
-	$(overridden_command)
-	
-	# Remove unused translations with the help of wildcards.
-	# Otherwise they would clutter debian/not-installed
-	
-	# Examples (examples/)
-	$(call rm_mo,mailreader.mo)
-	$(call rm_mo,plasma_applet_kpapplet.mo)
-	
-	# Mobile stuff
-	$(call rm_mo,libkdepimmobileui.mo)
-	$(call rm_mo,kaddressbook-mobile.mo)
-	$(call rm_mo,kmail-mobile.mo)
-	$(call rm_mo,korganizer-mobile.mo)
-	$(call rm_mo,notes-mobile.mo)
-	$(call rm_mo,tasks-mobile.mo)
-
 # Strict local dependencies (there are no external ones anyway)
 override_dh_makeshlibs:
 	$(overridden_command) -V
