@@ -1,14 +1,5 @@
 # Manpages are compressed.
 ./usr/share/man/man1/kabcclient.1
-./usr/share/man/de/man1/kabcclient.1
-./usr/share/man/es/man1/kabcclient.1
-./usr/share/man/et/man1/kabcclient.1
-./usr/share/man/fr/man1/kabcclient.1
-./usr/share/man/it/man1/kabcclient.1
-./usr/share/man/pt_BR/man1/kabcclient.1
-./usr/share/man/pt/man1/kabcclient.1
-./usr/share/man/sv/man1/kabcclient.1
-./usr/share/man/uk/man1/kabcclient.1
 
 # This is mobile stuff which we do not build at the moment
 # Used by mobile/mail/ and messageviewer/viewer_p.cpp (ifdef'ed)
@@ -30,8 +21,6 @@
 ./usr/lib/libgwsoap.so
 ./usr/lib/libincidenceeditorsng.so
 ./usr/lib/libincidenceeditorsngmobile.so
-./usr/lib/libincidenceeditorsngmobile.so.4
-./usr/lib/libincidenceeditorsngmobile.so.4.6.0
 ./usr/lib/libkabcgroupwise.so
 ./usr/lib/libkalarm_calendar.so
 ./usr/lib/libkcal_resourceblog.so
@@ -39,9 +28,6 @@
 ./usr/lib/libkcalgroupwise.so
 ./usr/lib/libkdepim.so
 ./usr/lib/libkdepimdbusinterfaces.so
-./usr/lib/libkdepimmobileui.so
-./usr/lib/libkdepimmobileui.so.4
-./usr/lib/libkdepimmobileui.so.4.6.0
 ./usr/lib/libkdgantt2.so
 ./usr/lib/libkleo.so
 ./usr/lib/libkleopatraclientcore.so

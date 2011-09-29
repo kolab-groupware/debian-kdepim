@@ -14,7 +14,7 @@ usr/lib/kde4/messageviewer_bodypartformatter_text_calendar.so
 usr/lib/kde4/messageviewer_bodypartformatter_text_vcard.so
 usr/lib/kde4/messageviewer_bodypartformatter_text_xdiff.so
 usr/lib/libkmailprivate.so.4
-usr/lib/libkmailprivate.so.4.6.0
+usr/lib/libkmailprivate.so.4.7.0
 usr/share/akonadi/agents/nepomukemailfeeder.desktop
 usr/share/applications/kde4/KMail2.desktop
 usr/share/applications/kde4/kmail_view.desktop
@@ -68,7 +68,6 @@ usr/share/kde4/apps/kontact/ksettingsdialog/kmail.setdlg
 usr/share/kde4/apps/messageviewer/plugins/bodypartformatter/text_calendar.desktop
 usr/share/kde4/apps/messageviewer/plugins/bodypartformatter/text_vcard.desktop
 usr/share/kde4/apps/messageviewer/plugins/bodypartformatter/text_xdiff.desktop
-usr/share/kde4/config.kcfg/custommimeheader.kcfg
 usr/share/kde4/config.kcfg/customtemplates_kfg.kcfg
 usr/share/kde4/config.kcfg/kmail.kcfg
 usr/share/kde4/config.kcfg/templatesconfiguration_kfg.kcfg
@@ -85,10 +84,3 @@ usr/share/kde4/services/kmail_config_misc.desktop
 usr/share/kde4/services/kmail_config_security.desktop
 usr/share/kde4/services/kontact/kmailplugin.desktop
 usr/share/kde4/servicetypes/dbusmail.desktop
-usr/share/locale/*/LC_MESSAGES/akonadi_nepomuk_email_feeder.mo
-usr/share/locale/*/LC_MESSAGES/kfile_mail.mo
-usr/share/locale/*/LC_MESSAGES/kmail.mo
-usr/share/locale/*/LC_MESSAGES/kmailcvt.mo
-usr/share/locale/*/LC_MESSAGES/messageviewer_text_calendar_plugin.mo
-usr/share/locale/*/LC_MESSAGES/messageviewer_text_vcard_plugin.mo
-usr/share/locale/*/LC_MESSAGES/messageviewer_text_xdiff_plugin.mo

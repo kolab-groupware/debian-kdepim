@@ -47,4 +47,3 @@ usr/share/kde4/services/ktimetracker_config_behavior.desktop
 usr/share/kde4/services/ktimetracker_config_display.desktop
 usr/share/kde4/services/ktimetracker_config_storage.desktop
 usr/share/kde4/services/ktimetrackerpart.desktop
-usr/share/locale/*/LC_MESSAGES/ktimetracker.mo

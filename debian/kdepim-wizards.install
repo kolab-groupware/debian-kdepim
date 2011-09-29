@@ -2,4 +2,3 @@ usr/bin/groupwarewizard
 usr/bin/groupwisewizard
 usr/share/applications/kde4/groupwarewizard.desktop
 usr/share/kde4/config.kcfg/groupwise.kcfg
-usr/share/locale/*/LC_MESSAGES/kdepimwizards.mo

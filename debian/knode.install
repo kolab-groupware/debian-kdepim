@@ -3,7 +3,7 @@ usr/lib/kde4/kcm_knode.so
 usr/lib/kde4/knodepart.so
 usr/lib/kde4/kontact_knodeplugin.so
 usr/lib/libknodecommon.so.4
-usr/lib/libknodecommon.so.4.6.0
+usr/lib/libknodecommon.so.4.7.0
 usr/share/applications/kde4/KNode.desktop
 usr/share/doc/kde/HTML/*/kioslave/
 usr/share/doc/kde/HTML/*/knode/
@@ -48,4 +48,3 @@ usr/share/kde4/services/knode_config_post_news.desktop
 usr/share/kde4/services/knode_config_privacy.desktop
 usr/share/kde4/services/knode_config_read_news.desktop
 usr/share/kde4/services/kontact/knodeplugin.desktop
-usr/share/locale/*/LC_MESSAGES/knode.mo

@@ -41,5 +41,3 @@ usr/share/kde4/services/akonotes_note.desktop
 usr/share/kde4/services/kjots_config_misc.desktop
 usr/share/kde4/services/kjotspart.desktop
 usr/share/kde4/services/kontact/kjots_plugin.desktop
-usr/share/locale/*/LC_MESSAGES/kjots.mo
-usr/share/locale/*/LC_MESSAGES/plasma_applet_akonotes_note.mo

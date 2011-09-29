@@ -1,6 +1,6 @@
 usr/lib/kde4/messageviewer_bodypartformatter_application_mstnef.so
 usr/lib/libmessageviewer.so.4
-usr/lib/libmessageviewer.so.4.6.0
+usr/lib/libmessageviewer.so.4.7.0
 usr/share/kde4/apps/libmessageviewer/pics/enterprise_bottom.png
 usr/share/kde4/apps/libmessageviewer/pics/enterprise_bottom_left.png
 usr/share/kde4/apps/libmessageviewer/pics/enterprise_bottom_right.png
@@ -22,4 +22,3 @@ usr/share/kde4/apps/libmessageviewer/pics/quicklistOpened.png
 usr/share/kde4/apps/libmessageviewer/pics/quotecollapse.png
 usr/share/kde4/apps/libmessageviewer/pics/quoteexpand.png
 usr/share/kde4/apps/messageviewer/plugins/bodypartformatter/application_ms-tnef.desktop
-usr/share/locale/*/LC_MESSAGES/libmessageviewer.mo

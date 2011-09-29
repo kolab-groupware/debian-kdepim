@@ -29,4 +29,3 @@ usr/share/kde4/services/knote_config_style.desktop
 usr/share/kde4/services/kontact/knotesplugin.desktop
 usr/share/kde4/services/kresources/knotes/local.desktop
 usr/share/kde4/services/kresources/knotes_manager.desktop
-usr/share/locale/*/LC_MESSAGES/knotes.mo
