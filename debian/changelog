@@ -49,6 +49,9 @@ kdepim (4:4.8.0-0r0) UNRELEASED; urgency=low
   * Bump shared-desktop-ontologies build depend to 0.6.50.
   * Update installed files.
 
+  [ Eshat Cakar ]
+  * Add myself to uploaders.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 07 Dec 2011 00:37:45 +0100
 
 kdepim (4:4.4.11.1+l10n-1) unstable; urgency=low
