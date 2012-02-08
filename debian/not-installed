@@ -18,14 +18,10 @@
 ./usr/lib/libakregatorinterfaces.so
 ./usr/lib/libcalendarsupport.so
 ./usr/lib/libeventviews.so
-./usr/lib/libgwsoap.so
 ./usr/lib/libincidenceeditorsng.so
 ./usr/lib/libincidenceeditorsngmobile.so
-./usr/lib/libkabcgroupwise.so
-./usr/lib/libkalarm_calendar.so
 ./usr/lib/libkcal_resourceblog.so
 ./usr/lib/libkcal_resourceremote.so
-./usr/lib/libkcalgroupwise.so
 ./usr/lib/libkdepim.so
 ./usr/lib/libkdepimdbusinterfaces.so
 ./usr/lib/libkdgantt2.so

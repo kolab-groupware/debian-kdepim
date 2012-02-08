@@ -1,14 +1,7 @@
 etc/dbus-1/system.d/org.kde.kalarmrtcwake.conf
 usr/bin/kalarm
 usr/bin/kalarmautostart
-usr/lib/kde4/kalarm_local.so
-usr/lib/kde4/kalarm_localdir.so
-usr/lib/kde4/kalarm_remote.so
 usr/lib/kde4/libexec/kalarm_helper
-usr/lib/libkalarm_calendar.so.4
-usr/lib/libkalarm_calendar.so.4.7.0
-usr/lib/libkalarm_resources.so.4
-usr/lib/libkalarm_resources.so.4.7.0
 usr/share/applications/kde4/kalarm.desktop
 usr/share/autostart/kalarm.autostart.desktop
 usr/share/dbus-1/system-services/org.kde.kalarmrtcwake.service
@@ -40,8 +33,4 @@ usr/share/kde4/apps/kconf_update/kalarm-2.1.5-general.pl
 usr/share/kde4/apps/kconf_update/kalarm-version.pl
 usr/share/kde4/apps/kconf_update/kalarm.upd
 usr/share/kde4/config.kcfg/kalarmconfig.kcfg
-usr/share/kde4/services/kresources/alarms/local.desktop
-usr/share/kde4/services/kresources/alarms/localdir.desktop
-usr/share/kde4/services/kresources/alarms/remote.desktop
-usr/share/kde4/services/kresources/kalarm_manager.desktop
 usr/share/polkit-1/actions/org.kde.kalarmrtcwake.policy
