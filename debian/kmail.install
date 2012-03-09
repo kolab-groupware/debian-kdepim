@@ -87,3 +87,5 @@ usr/share/kde4/services/kmail_config_security.desktop
 usr/share/kde4/services/kontact/kmailplugin.desktop
 usr/share/kde4/services/ServiceMenus/kmail_addattachmentservicemenu.desktop
 usr/share/kde4/servicetypes/dbusmail.desktop
+usr/share/ontology/kde/messagetag.ontology
+usr/share/ontology/kde/messagetag.trig
