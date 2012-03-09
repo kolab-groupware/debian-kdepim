@@ -1,4 +1,4 @@
-kdepim (4:4.8.0-0r0) UNRELEASED; urgency=low
+kdepim (4:4.8.1-0r0) UNRELEASED; urgency=low
 
   * TODO: copyright, package descriptions,
           figure out how to pull kdepim-runtime 4:4.6 (Breaks maybe?).
@@ -55,7 +55,7 @@ kdepim (4:4.8.0-0r0) UNRELEASED; urgency=low
   * Add libprision-dev for QR Code support of contacts.
   * Remove empty kdepim-groupware and kdepim-wizard packages.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 07 Dec 2011 00:37:45 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Mar 2012 21:42:03 +0100
 
 kdepim (4:4.4.11.1+l10n-1) unstable; urgency=low
 
