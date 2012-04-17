@@ -3,6 +3,8 @@ kdepim (4:4.4.11.1+l10n-2) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * debianize_akregator_default.diff: switch from news.debian.net (no more
     active) to the official news feed @ debian.org. (Closes: #665985)
+  * Override GENERIC_LIB_VERSION KDE_NON_GENERIC_LIB_VERSION to not depend on
+    the kdelibs version. (Closes: #665083)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 17 Apr 2012 14:21:49 +0200
 
