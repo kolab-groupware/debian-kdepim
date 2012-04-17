@@ -1,8 +1,10 @@
 Author: Ana Beatriz Guerrero Lopez <ana@debian.org>
+Author: Pino Toscano <pino@debian.org>
 Description: add a few Debian feeds to akregator
- Include planet debian and debian times as default in akregator
+ Include Planet Debian and Debian News as default in akregator
 Forwarded: not-needed
 Origin: vendor
+Last-Update: 2012-04-17
 
 --- a/akregator/src/akregator_part.cpp
 +++ b/akregator/src/akregator_part.cpp
@@ -21,7 +23,7 @@ Origin: vendor
 +
 +        QDomElement dtimes = doc.createElement( "outline" );
 +        dtimes.setAttribute("text",i18n("Debian News"));
-+        dtimes.setAttribute("xmlUrl","http://news.debian.net/feed/");
++        dtimes.setAttribute("xmlUrl","http://www.debian.org/News/news");
 +        debianFolder.appendChild(dtimes);
 +
          return doc;
