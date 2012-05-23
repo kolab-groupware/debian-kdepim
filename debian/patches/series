@@ -3,3 +3,4 @@ kdepim_l10n.diff
 displaying_only_unread_issue.diff
 debian_set_library_version.diff
 upstream_Bug-271580-Fix-crash-displaying-New-Alarm-dialog-fro.patch
+upstream_Build-with-clang.patch
