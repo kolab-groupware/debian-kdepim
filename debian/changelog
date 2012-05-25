@@ -1,4 +1,4 @@
-kdepim (4:4.4.11.1+l10n-2) UNRELEASED; urgency=low
+kdepim (4:4.4.11.1+l10n-2) unstable; urgency=low
 
   * Team upload.
 
@@ -14,7 +14,7 @@ kdepim (4:4.4.11.1+l10n-2) UNRELEASED; urgency=low
   * Backport upstream commit 4aa4059b40aed27ae76201baa48f419d1ba09576 to fix
     building with GCC 4.7; patch upstream_Build-with-clang.patch.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 17 Apr 2012 14:21:49 +0200
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 25 May 2012 16:31:55 -0300
 
 kdepim (4:4.4.11.1+l10n-1) unstable; urgency=low
 
