@@ -1,5 +1,9 @@
 kdepim (4:4.4.11.1+l10n-3) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Backport upstream commit 6ae89eee936159dd7d7ca3405fbe6d9d66d86ddd to fix
+    the Akregator shutdown with qDeleteAll() of Qt 4.8; patch
+    upstream_Fix-crash-in-Folder-destructor.patch. (Closes: #675498)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 08 Jun 2012 11:18:32 +0200
 
