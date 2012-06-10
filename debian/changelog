@@ -32,8 +32,6 @@ kdepim (4:4.8.4-0r0) UNRELEASED; urgency=low
     - libmessageviewer4 (renamed from libmessageviewer0).
 
   [ Modestas Vainius ]
-  * Wildcardize l10n stuff in *.install files.
-  * Wildcardize documentation.
   * Drop kdepim_l10n.diff patch, not needed.
   * Drop displaying_only_unread_issue.diff patch, applied upstream.
   * Do not build mobile components for now (-DKDEPIM_BUILD_MOBILE=OFF).
@@ -58,6 +56,43 @@ kdepim (4:4.8.4-0r0) UNRELEASED; urgency=low
   * Add watch file.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Mar 2012 21:42:03 +0100
+
+kdepim (4:4.4.11.1+l10n-3) unstable; urgency=low
+
+  * Team upload.
+
+  [ Pino Toscano ]
+  * Backport upstream commit 6ae89eee936159dd7d7ca3405fbe6d9d66d86ddd to fix
+    the Akregator shutdown with qDeleteAll() of Qt 4.8; patch
+    upstream_Fix-crash-in-Folder-destructor.patch. (Closes: #675498)
+  * Backport upstream commit 645cefecafc3b40f4cb91675703335bfdc8f8b91 to fix
+    building with FORTIFY & GCC 4.7; patch
+    upstream_in-c4_String-c4_String-only-call-memset-if-the-numbe.patch.
+
+  [ Modestas Vainius ]
+  * Wildcardize program translations in install files.
+  * Wildcardize documentation translations in install files.
+  * Wildcardize manual page translations in install files.
+
+ -- Modestas Vainius <modax@debian.org>  Sun, 10 Jun 2012 15:12:20 +0300
+
+kdepim (4:4.4.11.1+l10n-2) unstable; urgency=low
+
+  * Team upload.
+
+  [ Pino Toscano ]
+  * debianize_akregator_default.diff: switch from news.debian.net (no more
+    active) to the official news feed @ debian.org. (Closes: #665985)
+  * Override GENERIC_LIB_VERSION and KDE_NON_GENERIC_LIB_VERSION to not depend
+    on the kdelibs version. (Closes: #665083)
+  * Backport upstream commit 4b504e760e0c994e676b55bfaca731d74841f1f4 to fix
+    KAlarm crashes with Qt 4.8.x; patch
+    upstream_Bug-271580-Fix-crash-displaying-New-Alarm-dialog-fro.patch.
+    (Closes: #671619)
+  * Backport upstream commit 4aa4059b40aed27ae76201baa48f419d1ba09576 to fix
+    building with GCC 4.7; patch upstream_Build-with-clang.patch.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 25 May 2012 16:31:55 -0300
 
 kdepim (4:4.4.11.1+l10n-1) unstable; urgency=low
 
