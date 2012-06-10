@@ -45,6 +45,8 @@ kdepim (4:4.8.4-0r0) UNRELEASED; urgency=low
     merged upstream.
   * Drop upstream_Build-with-clang.patch, merged upstream.
   * Drop upstream_Fix-crash-in-Folder-destructor.patch, merged upstream.
+  * Drop upstream_in-c4_String-c4_String-only-call-memset-if-the-numbe.patch,
+    merged upstream.
 
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.8.4.
