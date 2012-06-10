@@ -1,3 +1,2 @@
 debianize_akregator_default.diff
-upstream_Fix-crash-in-Folder-destructor.patch
 upstream_in-c4_String-c4_String-only-call-memset-if-the-numbe.patch
