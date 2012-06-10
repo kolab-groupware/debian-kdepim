@@ -35,10 +35,7 @@ kdepim (4:4.8.4-0r0) UNRELEASED; urgency=low
   * Drop kdepim_l10n.diff patch, not needed.
   * Drop displaying_only_unread_issue.diff patch, applied upstream.
   * Do not build mobile components for now (-DKDEPIM_BUILD_MOBILE=OFF).
-  * Remove unused translations right after they dh_auto_install'ed. This
-    will unclutter debian/not-installed.
   * Move kdepim-dbg to the bottom of debian/control.
-  * Drop ${perl:Depends} from kdepim-groupware Depends.
   * Add ${perl:Depends} to libkpgp4 Depends.
   * Drop debian_set_library_version.diff patch, not needed anymore.
   * Drop upstream_Bug-271580-Fix-crash-displaying-New-Alarm-dialog-fro.patch,
