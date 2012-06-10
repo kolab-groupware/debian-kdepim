@@ -32,18 +32,18 @@ kdepim (4:4.8.4-0r0) UNRELEASED; urgency=low
     - libmessageviewer4 (renamed from libmessageviewer0).
 
   [ Modestas Vainius ]
-  * Drop kdepim_l10n.diff patch, not needed.
-  * Drop displaying_only_unread_issue.diff patch, applied upstream.
+  * Drop patches, not needed anymore:
+    - kdepim_l10n.diff patch
+    - debian_set_library_version.diff patch
+  * Drop patches, merged upstream:
+    - displaying_only_unread_issue.diff
+    - upstream_Bug-271580-Fix-crash-displaying-New-Alarm-dialog-fro.patch
+    - upstream_Build-with-clang.patch
+    - upstream_Fix-crash-in-Folder-destructor.patch
+    - upstream_in-c4_String-c4_String-only-call-memset-if-the-numbe.patch
   * Do not build mobile components for now (-DKDEPIM_BUILD_MOBILE=OFF).
   * Move kdepim-dbg to the bottom of debian/control.
   * Add ${perl:Depends} to libkpgp4 Depends.
-  * Drop debian_set_library_version.diff patch, not needed anymore.
-  * Drop upstream_Bug-271580-Fix-crash-displaying-New-Alarm-dialog-fro.patch,
-    merged upstream.
-  * Drop upstream_Build-with-clang.patch, merged upstream.
-  * Drop upstream_Fix-crash-in-Folder-destructor.patch, merged upstream.
-  * Drop upstream_in-c4_String-c4_String-only-call-memset-if-the-numbe.patch,
-    merged upstream.
 
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.8.4.
