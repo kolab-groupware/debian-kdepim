@@ -55,6 +55,7 @@ kdepim (4:4.8.4-0r0) UNRELEASED; urgency=low
   * Add libprision-dev for QR Code support of contacts.
   * Remove empty kdepim-groupware and kdepim-wizard packages.
   * Bump libakonadi-dev build dependency to 1.7.2.
+  * Add watch file.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Mar 2012 21:42:03 +0100
 
