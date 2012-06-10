@@ -43,6 +43,7 @@ kdepim (4:4.8.4-0r0) UNRELEASED; urgency=low
   * Drop debian_set_library_version.diff patch, not needed anymore.
   * Drop upstream_Bug-271580-Fix-crash-displaying-New-Alarm-dialog-fro.patch,
     merged upstream.
+  * Drop upstream_Build-with-clang.patch, merged upstream.
 
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.8.4.
