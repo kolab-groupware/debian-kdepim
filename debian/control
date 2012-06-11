@@ -72,7 +72,6 @@ Description: address book and contact data manager
  This package is part of the KDE PIM module.
 
 Package: kalarm
-Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}
 Suggests: kttsd | jovie
@@ -92,7 +91,6 @@ Description: alarm message, command and email scheduler
  This package is part of the KDE PIM module.
 
 Package: kdepim-kresources
-Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: korganizer
@@ -182,7 +180,6 @@ Description: graphical news reader
  This package is part of the KDE PIM module.
 
 Package: knotes
-Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: kdepim-kresources
@@ -197,7 +194,6 @@ Description: sticky notes application
  This package is part of the KDE PIM module.
 
 Package: konsolekalendar
-Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Conflicts: kde-l10n
@@ -209,7 +205,6 @@ Description: konsole personal organizer
  This package is part of the KDE PIM module.
 
 Package: kontact
-Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: kmail, knotes, akregator, kaddressbook, korganizer
@@ -227,7 +222,6 @@ Description: integrated application for personal information management
  This package is part of the KDE PIM module.
 
 Package: korganizer
-Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}
 Suggests: kdepim-kresources
@@ -428,7 +422,6 @@ Description: template parser library
  This package is part of the KDE PIM module.
 
 Package: kdepim-strigi-plugins
-Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: PIM file format plugins for Strigi Desktop Search
