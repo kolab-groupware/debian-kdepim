@@ -44,6 +44,8 @@ kdepim (4:4.8.4-0r1) UNRELEASED; urgency=low
   * Do not build mobile components for now (-DKDEPIM_BUILD_MOBILE=OFF).
   * Move kdepim-dbg to the bottom of debian/control.
   * Add ${perl:Depends} to libkpgp4 Depends.
+  * Bump Standards-Version to 3.9.3:
+    - switch kdepim metapackage to the new metapackages section.
 
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.8.4.
