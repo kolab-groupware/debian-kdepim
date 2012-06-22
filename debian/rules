@@ -1,5 +1,7 @@
 #!/usr/bin/make -f
 
+KDEPIM_RUNTIME_VERSION = 4:4.8
+
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 libpkgs_gen_strict_local_shlibs = $(libpkgs_all_packages)
 include /usr/share/pkg-kde-tools/qt-kde-team/2/library-packages.mk
@@ -15,3 +17,11 @@ override_dh_makeshlibs:
 
 override_dh_strip:
 	$(overridden_command) --dbg-package=kdepim-dbg
+
+override_dh_shlibdeps:
+	$(overridden_command)
+	set -e; \
+	if [ -n "`ls debian/*.substvars 2>/dev/null`" ]; then \
+	    echo "Tightening dependency on kdepim-runtime to (>= $(KDEPIM_RUNTIME_VERSION)"; \
+	    sed -i '/^shlibs:[^=]\+=/{ s/\(^shlibs:[^=]\+=[[:space:]]*\|,[[:space:]]*\)\(kdepim-runtime\)\([[:space:]]*([[:space:]]*[><=]\+[^)]\+)\)\?/\1\2 (>= $(KDEPIM_RUNTIME_VERSION))/g }' debian/*.substvars; \
+    fi

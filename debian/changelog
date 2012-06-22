@@ -1,7 +1,6 @@
 kdepim (4:4.8.4-0r1) UNRELEASED; urgency=low
 
   * TODO: copyright, package descriptions,
-          figure out how to pull kdepim-runtime 4:4.6 (Breaks maybe?).
 
   * New upstream release.
 
@@ -46,6 +45,7 @@ kdepim (4:4.8.4-0r1) UNRELEASED; urgency=low
   * Add ${perl:Depends} to libkpgp4 Depends.
   * Bump Standards-Version to 3.9.3:
     - switch kdepim metapackage to the new metapackages section.
+  * Tighten dependency on kdepim-runtime to >= 4:4.8.
 
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.8.4.
