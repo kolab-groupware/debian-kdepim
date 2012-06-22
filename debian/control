@@ -105,19 +105,6 @@ Description: KDE PIM resource plugins
  .
  This package is part of KDE, and a component of the KDE PIM module.
 
-#Package: kitchensync
-#Section: kde
-#Architecture: any
-#Depends: ${shlibs:Depends}, ${misc:Depends}
-#Suggests: konqueror
-#Conflicts: kdebluetooth-irmcsync (<< 0.99+1.0beta2-4.1)
-#Homepage: http://www.opensync.org/wiki/kitchensync
-#Description: Synchronization framework
-# This package contains a synchronization framework, still under heavy
-# development.  Kitchensync uses opensync.
-# .
-# This package is part of KDE, and a component of the KDE PIM module.
-
 Package: kleopatra
 Section: net
 Architecture: any
@@ -148,20 +135,6 @@ Description: full featured graphical email client
  This package also contains Nepomuk EMail Feeder Akonadi Agent.
  .
  This package is part of the KDE PIM module.
-
-# Package: kmobiletools
-# Section: utils
-# Architecture: any
-# Depends: ${shlibs:Depends}, ${misc:Depends}
-# Homepage: http://www.kmobiletools.org/
-# Description: KDE application to control mobile phones
-#  MobileTools is a KDE application that allows you to control your mobile phone.
-#  Actually, this application supports: SMS reading/writing/sending/deleting ,
-#  multiple SMS destinations (if supported by the phone), calls handling (dial,
-#  answer, close), phonebook reading, viw last answered calls and last unanswered
-#  calls lists.
-#  .
-#  This package is part of KDE, and a component of the KDE PIM module.
 
 Package: knode
 Section: news
