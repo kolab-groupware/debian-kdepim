@@ -40,7 +40,6 @@ kdepim (4:4.8.4-0r1) UNRELEASED; urgency=low
     - upstream_Build-with-clang.patch
     - upstream_Fix-crash-in-Folder-destructor.patch
     - upstream_in-c4_String-c4_String-only-call-memset-if-the-numbe.patch
-  * Do not build mobile components for now (-DKDEPIM_BUILD_MOBILE=OFF).
   * Move kdepim-dbg to the bottom of debian/control.
   * Add ${perl:Depends} to libkpgp4 Depends.
   * Bump Standards-Version to 3.9.3:
