@@ -1,0 +1,9 @@
+usr/bin/notes-mobile
+usr/share/applications/kde4/notes-mobile.desktop
+usr/share/icons/hicolor/48x48/apps/notes-mobile.png
+usr/share/icons/hicolor/64x64/apps/notes-mobile.png
+usr/share/kde4/apps/notes-mobile/BulkActionComponent.qml
+usr/share/kde4/apps/notes-mobile/NoteActions.qml
+usr/share/kde4/apps/notes-mobile/NoteView.qml
+usr/share/kde4/apps/notes-mobile/NotesListView.qml
+usr/share/kde4/apps/notes-mobile/notes-mobile-background.png

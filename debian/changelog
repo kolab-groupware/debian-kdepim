@@ -45,6 +45,15 @@ kdepim (4:4.8.4-0r2) UNRELEASED; urgency=low
   * Bump Standards-Version to 3.9.3:
     - switch kdepim metapackage to the new metapackages section.
   * Tighten dependency on kdepim-runtime to >= 4:4.8.
+  * Add new packages for KDE PIM mobile:
+    - kdepim-mobile (metapackage);
+    - kaddressbook-mobile;
+    - kmail-mobile;
+    - korganizer-mobile;
+    - notes-mobile;
+    - tasks-mobile;
+    - libkdepimmobileui4;
+    - kdepim-mobileui-data (arch: all).
 
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.8.4.

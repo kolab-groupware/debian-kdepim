@@ -37,7 +37,19 @@ Description: Personal Information Management apps from the official KDE release
  technological superiority of the Unix operating system.
  .
  This metapackage includes a collection of Personal Information Management
- (PIM) applications provided with the official release of KDE.
+ (PIM) desktop applications provided with the official release of KDE.
+
+Package: kdepim-mobile
+Section: metapackages
+Architecture: all
+Depends: ${misc:Depends}, kaddressbook-mobile (>= ${source:Version}),
+ kmail-mobile (>= ${source:Version}), korganizer-mobile (>= ${source:Version}),
+ notes-mobile (>= ${source:Version}), tasks-mobile (>= ${source:Version})
+Description: Personal Information Management apps for mobile environments
+ This metapackage includes a collection of official KDE Personal Information
+ Management (PIM) applications which have been designed for use in the mobile
+ environments. Their feature set and user interface focus on convenience and
+ ease of use with touchscreen and potentially small size displays.
 
 Package: akregator
 Section: web
@@ -69,6 +81,18 @@ Description: address book and contact data manager
  KAddressBook enables you to manage your contacts efficiently and comfortably. 
  It can load and save your contacts to many different locations, including 
  the local file system, LDAP servers, and SQL databases.
+ .
+ This package is part of the KDE PIM module.
+
+Package: kaddressbook-mobile
+Section: utils
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Suggests: kdepim-kresources
+Description: address book and contact data manager for mobile environments
+ This package provides a convenient application for managing your addresses and
+ contacts on mobile devices. It focuses on usability with touchscreen displays
+ and potentially small screen sizes.
  .
  This package is part of the KDE PIM module.
 
@@ -136,6 +160,17 @@ Description: full featured graphical email client
  .
  This package is part of the KDE PIM module.
 
+Package: kmail-mobile
+Section: mail
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: email client for mobile environments
+ This package provides an email client which has been specially designed for
+ use on mobile devices. As a result, it focuses on usability with touchscreen
+ displays and potentially small screen sizes.
+ .
+ This package is part of the KDE PIM module.
+
 Package: knode
 Section: news
 Architecture: any
@@ -167,6 +202,16 @@ Description: sticky notes application
  .
  This package is part of the KDE PIM module.
 
+Package: notes-mobile
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: notes application for mobile environments
+ This package provides notes taking application which has been specially
+ designed for use on mobile devices. Its user interface aims to make it easy to
+ write and manage sticky notes via touchscreen displays.
+ .
+ This package is part of the KDE PIM module.
+
 Package: konsolekalendar
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -195,6 +240,16 @@ Description: integrated application for personal information management
  .
  This package is part of the KDE PIM module.
 
+Package: tasks-mobile
+Section: utils
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: task management application for mobile environments
+ This package provides a task management application which user interface has
+ been designed for use on the mobile devices.
+ .
+ This package is part of the KDE PIM module.
+
 Package: korganizer
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}
@@ -211,6 +266,17 @@ Description: calendar and personal organizer
  with other calendar applications, through the industry standard vCalendar
  personal data interchange file format. This eases the move from other
  modern PIMs to KOrganizer.
+ .
+ This package is part of the KDE PIM module.
+
+Package: korganizer-mobile
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: calendar and personal organizer for mobile environments
+ This package provides a calendar and personal organizer applications which has
+ been specially designed for use on mobile devices. KOrganizer Mobile aims
+ making it easy and convenient to manage your plans and daily routine on
+ touchscreen displays with potentially small screens.
  .
  This package is part of the KDE PIM module.
 
@@ -381,6 +447,28 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: template parser library
  This package is part of the KDE PIM module.
 
+Package: libkdepimmobileui4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, kdepim-mobileui-data (= ${source:Version})
+Description: user interface library for KDE PIM mobile applications
+ This package contains a base user interface library for KDE PIM mobile
+ applications. It defines mobile UI design priciples in order to establish
+ consistent look&feel among KDE PIM mobile applications.
+ .
+ This package is part of the KDE PIM module.
+
+Package: kdepim-mobileui-data
+Section: libs
+Architecture: all
+Depends: ${misc:Depends}
+Description: common data files for KDE PIM mobile applications
+ This package contains data files which may be used by all KDE PIM mobile
+ applications. It provides common UI components (mostly QML) and various
+ icons and images used by these shared UI elements.
+ .
+ This package is part of the KDE PIM module.
+
 Package: kdepim-strigi-plugins
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -463,6 +551,11 @@ Depends: ${misc:Depends}, kdepimlibs-dbg,
  korganizer (= ${binary:Version}) |
  ktimetracker (= ${binary:Version}) |
  blogilo (= ${binary:Version}) |
+ kaddressbook-mobile (= ${binary:Version}) |
+ kmail-mobile (= ${binary:Version}) |
+ korganizer-mobile (= ${binary:Version}) |
+ notes-mobile (= ${binary:Version}) |
+ tasks-mobile (= ${binary:Version}) |
  libcalendarsupport4 (= ${binary:Version}) |
  libeventviews4 (= ${binary:Version}) |
  libincidenceeditorsng4 (= ${binary:Version}) |
@@ -485,6 +578,5 @@ Breaks: kdeutils-dbg (<< 4:4.0.80)
 Replaces: kdeutils-dbg (<< 4:4.0.80)
 Architecture: any
 Description: debugging symbols for kdepim
- This package contains the debugging symbols associated with kdepim.
- They will automatically be used by gdb for debugging kdepim-related
- issues.
+ This package contains the debugging symbols associated with kdepim. They will
+ automatically be used by gdb for debugging kdepim-related issues.

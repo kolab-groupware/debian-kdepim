@@ -1,0 +1,13 @@
+usr/bin/korganizer-mobile
+usr/share/applications/kde4/korganizer-mobile.desktop
+usr/share/icons/hicolor/48x48/apps/korganizer-mobile.png
+usr/share/icons/hicolor/64x64/apps/korganizer-mobile.png
+usr/share/kde4/apps/korganizer-mobile/BulkActionComponent.qml
+usr/share/kde4/apps/korganizer-mobile/ConfigDialog.qml
+usr/share/kde4/apps/korganizer-mobile/EventListComponent.qml
+usr/share/kde4/apps/korganizer-mobile/EventListView.qml
+usr/share/kde4/apps/korganizer-mobile/KorganizerActions.qml
+usr/share/kde4/apps/korganizer-mobile/MonthViewComponent.qml
+usr/share/kde4/apps/korganizer-mobile/TimelineView.qml
+usr/share/kde4/apps/korganizer-mobile/korganizer-mobile-background.png
+usr/share/kde4/apps/korganizer-mobile/korganizer-mobile.qml
