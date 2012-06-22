@@ -30,8 +30,8 @@ usr/share/kde4/apps/knode/knodeui.rc
 usr/share/kde4/apps/knode/knreaderui.rc
 usr/share/kde4/apps/knode/pics/article.png
 usr/share/kde4/apps/knode/pics/eyes.png
-usr/share/kde4/apps/knode/pics/greyballchk.png
 usr/share/kde4/apps/knode/pics/greyball.png
+usr/share/kde4/apps/knode/pics/greyballchk.png
 usr/share/kde4/apps/knode/pics/group.png
 usr/share/kde4/apps/knode/pics/ignore.png
 usr/share/kde4/apps/knode/pics/mail.png

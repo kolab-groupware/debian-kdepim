@@ -7,8 +7,8 @@ usr/lib/kde4/akregator_config_browser.so
 usr/lib/kde4/akregator_config_general.so
 usr/lib/kde4/akregator_config_sharemicroblog.so
 usr/lib/kde4/akregator_mk4storage_plugin.so
-usr/lib/kde4/akregatorpart.so
 usr/lib/kde4/akregator_sharemicroblog_plugin.so
+usr/lib/kde4/akregatorpart.so
 usr/lib/kde4/kontact_akregatorplugin.so
 usr/lib/libakregatorinterfaces.so.4
 usr/lib/libakregatorinterfaces.so.4.8.0
@@ -17,8 +17,8 @@ usr/lib/libakregatorprivate.so.4.8.0
 usr/share/applications/kde4/akregator.desktop
 usr/share/doc/kde/HTML/*/akregator/
 usr/share/icons/hicolor/128x128/apps/akregator.png
-usr/share/icons/hicolor/16x16/apps/akregator_empty.png
 usr/share/icons/hicolor/16x16/apps/akregator.png
+usr/share/icons/hicolor/16x16/apps/akregator_empty.png
 usr/share/icons/hicolor/22x22/apps/akregator.png
 usr/share/icons/hicolor/256x256/apps/akregator.png
 usr/share/icons/hicolor/32x32/apps/akregator.png

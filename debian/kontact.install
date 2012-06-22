@@ -5,10 +5,10 @@ usr/lib/kde4/kcm_kontactsummary.so
 usr/lib/kde4/kontact_summaryplugin.so
 usr/lib/libkontactprivate.so.4
 usr/lib/libkontactprivate.so.4.8.0
-usr/share/applications/kde4/kontact-admin.desktop
 usr/share/applications/kde4/Kontact.desktop
-usr/share/doc/kde/HTML/*/kontact/
+usr/share/applications/kde4/kontact-admin.desktop
 usr/share/doc/kde/HTML/*/kontact-admin/
+usr/share/doc/kde/HTML/*/kontact/
 usr/share/icons/hicolor/128x128/apps/kontact.png
 usr/share/icons/hicolor/16x16/apps/kontact.png
 usr/share/icons/hicolor/22x22/apps/kontact.png
@@ -25,5 +25,5 @@ usr/share/kde4/apps/kontact/ktimetrackerui.rc
 usr/share/kde4/apps/kontactsummary/kontactsummary_part.rc
 usr/share/kde4/config.kcfg/kontact.kcfg
 usr/share/kde4/services/kcmkontactsummary.desktop
-usr/share/kde4/services/kontactconfig.desktop
 usr/share/kde4/services/kontact/summaryplugin.desktop
+usr/share/kde4/services/kontactconfig.desktop
