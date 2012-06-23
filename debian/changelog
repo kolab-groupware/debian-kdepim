@@ -56,6 +56,8 @@ kdepim (4:4.8.4-0r3) UNRELEASED; urgency=low
     - kdepim-mobileui-data (arch: all).
   * Build depend (indep) on dblatex - needed to generate ktouch licence
     information.
+  * Remove libraries from kdepim-dbg depends. They will be pulled in
+    recursively by the applications when needed.
 
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.8.4.

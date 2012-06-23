@@ -556,25 +556,7 @@ Depends: ${misc:Depends}, kdepimlibs-dbg,
  kmail-mobile (= ${binary:Version}) |
  korganizer-mobile (= ${binary:Version}) |
  notes-mobile (= ${binary:Version}) |
- tasks-mobile (= ${binary:Version}) |
- libcalendarsupport4 (= ${binary:Version}) |
- libeventviews4 (= ${binary:Version}) |
- libincidenceeditorsng4 (= ${binary:Version}) |
- libkdepim4 (= ${binary:Version}) |
- libkdepimdbusinterfaces4 (= ${binary:Version}) |
- libkdgantt2-0 (= ${binary:Version}) |
- libkleo4 (= ${binary:Version}) |
- libkmanagesieve4 (= ${binary:Version}) |
- libkpgp4 (= ${binary:Version}) |
- libksieve4 (= ${binary:Version}) |
- libksieveui4 (= ${binary:Version}) |
- libmaildir4 (= ${binary:Version}) |
- libmailcommon4 (= ${binary:Version}) |
- libmessagecomposer4 (= ${binary:Version}) |
- libmessagecore4 (= ${binary:Version}) |
- libmessagelist4 (= ${binary:Version}) |
- libmessageviewer4 (= ${binary:Version}) |
- libtemplateparser4 (= ${binary:Version})
+ tasks-mobile (= ${binary:Version})
 Breaks: kdeutils-dbg (<< 4:4.0.80)
 Replaces: kdeutils-dbg (<< 4:4.0.80)
 Architecture: any
