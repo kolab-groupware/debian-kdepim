@@ -54,6 +54,8 @@ kdepim (4:4.8.4-0r2) UNRELEASED; urgency=low
     - tasks-mobile;
     - libkdepimmobileui4;
     - kdepim-mobileui-data (arch: all).
+  * Build depend (indep) on dblatex - needed to generate ktouch licence
+    information.
 
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.8.4.
