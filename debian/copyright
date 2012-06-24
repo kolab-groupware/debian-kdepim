@@ -1424,12 +1424,5 @@ wizards
   Copyright (C) 2004 Bo Thorsen <bo@sonofthor.dk>
   Copyright (C) 2004 Daniel Molkentin <molkentin@kde.org>
 
-l10n (*.orig-l10n.tar.bz2 tarball)
-  Every language file is made by the respective translation team. You can find
-  a list of the translation teams and their contact email addresses at
-  http://i18n.kde.org/teams-list.php. Each file is copyright by people as
-  specified in the header of the file. Translations are under the same
-  license as the original program or library which they are for.
-
 The debian packaging is licensed under the gplv2 or later. 
 Please see /usr/share/common-licenses/GPL-2 for details
