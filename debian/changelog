@@ -1,6 +1,6 @@
 kdepim (4:4.8.4-0r4) UNRELEASED; urgency=low
 
-  * TODO: copyright, package descriptions,
+  * TODO: copyright
 
   * New upstream release.
 
@@ -58,6 +58,7 @@ kdepim (4:4.8.4-0r4) UNRELEASED; urgency=low
     information.
   * Remove libraries from kdepim-dbg depends. They will be pulled in
     recursively by the applications when needed.
+  * Improve package descriptions.
 
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.8.4.

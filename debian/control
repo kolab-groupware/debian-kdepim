@@ -167,8 +167,8 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: email client for mobile environments
  This package provides an email client which has been specially designed for
- use on mobile devices. As a result, it focuses on usability with touchscreen
- displays and potentially small screen sizes.
+ use on mobile devices. It focuses on usability with touchscreen displays and
+ potentially small screen sizes.
  .
  This package is part of the KDE PIM module.
 
@@ -209,7 +209,8 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: notes application for mobile environments
  This package provides notes taking application which has been specially
  designed for use on mobile devices. Its user interface aims to make it easy to
- write and manage sticky notes via touchscreen displays.
+ write and manage sticky notes via touchscreen and potentially small size
+ displays.
  .
  This package is part of the KDE PIM module.
 
@@ -299,13 +300,20 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: calendar support library
+ This library defines calendar related model objects for KDE PIM module
+ applications and provides a common interface for accessing and managing
+ calendars provided by Akonadi resources.
+ .
  This package is part of the KDE PIM module.
 
 Package: libeventviews4
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: event views library
+Description: event viewing library
+ This internal library implements a GUI framework for viewing various calendar
+ events in agenda, list, month view or timeline fashion.
+ .
  This package is part of the KDE PIM module.
 
 Package: libincidenceeditorsng4
@@ -313,6 +321,10 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: incidence editors library
+ This library implements GUI components for incidence (including but not
+ limited to alarms, attendances, free-busy etc.) editing. These GUI components
+ are widely used in various KDE PIM applications.
+ .
  This package is part of the KDE PIM module.
 
 Package: libkdepim4
@@ -323,7 +335,8 @@ Breaks: kmail (<< 4:4.1.80), kdepim-runtime (<< 4:4.4.0)
 Replaces: kmail (<< 4:4.1.80), kdepim-runtime (<< 4:4.4.0)
 Conflicts: kde-l10n
 Description: KDE PIM library
- This is the runtime package for programs that use the libkdepim library.
+ This is the internal runtime package for applications from the KDE PIM module.
+ It contains shared libraries and data which most of KDE PIM applications use.
  .
  This package is part of the KDE PIM module.
 
@@ -332,13 +345,20 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: KDE PIM D-Bus interfaces library
+ This internal library implements handling of D-Bus interfaces shared among
+ some of the KDE PIM applications.
+ .
  This package is part of the KDE PIM module.
 
 Package: libkdgantt2-0
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: gantt library
+Description: Gantt chart library
+ This library implements Gantt chart drawing functionality. It allows to easily
+ embed the Gantt charts into the application as long as it is capable of
+ drawing QWidget or QGraphicsView objects.
+ .
  This package is part of the KDE PIM module.
 
 Package: libkleo4
@@ -350,13 +370,6 @@ Description: certificate based crypto library
  This package contains libkleo, a library for Kleopatra and other parts
  of KDE using certificate-based crypto.
  .
- This package is part of the KDE PIM module.
-
-Package: libkmanagesieve4
-Section: libs
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: sieve management library
  This package is part of the KDE PIM module.
 
 Package: libkpgp4
@@ -375,8 +388,21 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Conflicts: kde-l10n
-Description: mail/news message filtering library
- This is the runtime package for programs that use the libksieve library.
+Description: Sieve, the mail filtering language, library
+ This library implements a parser and lexer for Sieve, the mail filtering
+ language (RFC 3028).
+ .
+ This package is part of the KDE PIM module.
+
+Package: libkmanagesieve4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Sieve script remote management library
+ This library implements a subset of the protocol for remotely managing Sieve
+ scripts (RFC 5804). Among other basic operations, it provides an easy to use
+ API for listing, retrieving, deleting, activating and uploading of scripts to
+ the remote Sieve script server.
  .
  This package is part of the KDE PIM module.
 
@@ -384,8 +410,11 @@ Package: libksieveui4
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: mail/news message filtering library, GUI part
- This is the GUI part of the libksieve library.
+Description: Sieve, the mail filtering language, GUI library
+ This library implements GUI dialogs and elements which enable users to easily
+ create, edit and manage their mail filters on the mail servers which support
+ the Sieve language (RFC 3028) and the protocol for remotely managing Sieve
+ scripts (RFC 5804).
  .
  This package is part of the KDE PIM module.
 
@@ -445,7 +474,11 @@ Package: libtemplateparser4
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: template parser library
+Description: KMail template parser library
+ This library implements a parser for the mail templates which KMail uses to
+ enable customization of initial structure for the new, reply or forwarded
+ messages.
+ .
  This package is part of the KDE PIM module.
 
 Package: libkdepimmobileui4
