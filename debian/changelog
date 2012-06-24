@@ -59,6 +59,8 @@ kdepim (4:4.8.4-0r4) UNRELEASED; urgency=low
   * Remove libraries from kdepim-dbg depends. They will be pulled in
     recursively by the applications when needed.
   * Improve package descriptions.
+  * Drop kde-l10n conflicts where it was present as we do not embed
+    translations.
 
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.8.4.

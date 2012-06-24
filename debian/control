@@ -58,7 +58,6 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Breaks: kontact (<< 4:4.1.80)
 Replaces: kontact (<< 4:4.1.80)
-Conflicts: kde-l10n
 Homepage: http://akregator.kde.org/
 Description: RSS/Atom feed aggregator 
  Akregator is a news feed reader. It enables you to follow  
@@ -77,7 +76,6 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: kdepim-kresources
 Breaks: korganizer (<< 4:4.1.80), kontact (<< 4:4.1.80)
 Replaces: korganizer (<< 4:4.1.80), kontact (<< 4:4.1.80)
-Conflicts: kde-l10n
 Description: address book and contact data manager
  KAddressBook enables you to manage your contacts efficiently and comfortably. 
  It can load and save your contacts to many different locations, including 
@@ -101,7 +99,6 @@ Package: kalarm
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}
 Suggests: kttsd | jovie
-Conflicts: kde-l10n
 Homepage: http://www.astrojar.org.uk/kalarm/
 Description: alarm message, command and email scheduler
  KAlarm provides a graphical interface to schedule personal timed events -
@@ -123,7 +120,6 @@ Recommends: korganizer
 Suggests: knotes
 Breaks: korganizer (<< 4:4.1.80)
 Replaces: korganizer (<< 4:4.1.80)
-Conflicts: kde-l10n
 Description: KDE PIM resource plugins
  This package adds more resource plugins for KDE PIM applications such as
  blogging, tracking feature plans etc.
@@ -135,7 +131,6 @@ Section: net
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends},
  gnupg-agent, gnupg2, gpgsm, dirmngr, pinentry-qt4 | pinentry-x11
-Conflicts: kde-l10n
 Description: certificate Manager
  Kleopatra is a tool for managing X.509 certificates and pgp keys.
  .
@@ -150,7 +145,6 @@ Suggests: kaddressbook, kleopatra, spamassassin | bogofilter | annoyance-filter 
 Breaks: kmailcvt (<< 4:3.90.0), akonadi-kde (<< 4:4.1.3), kontact (<< 4:4.1.80)
 Replaces: kmailcvt (<< 4:3.90.0), akonadi-kde (<< 4:4.1.3), kontact (<< 4:4.1.80)
 Provides: imap-client, mail-reader
-Conflicts: kde-l10n
 Homepage: http://kontact.kde.org/kmail/
 Description: full featured graphical email client
  KMail is a fully-featured email client that fits nicely into the KDE
@@ -179,7 +173,6 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Breaks: kdepim-dev (<< 4:3.4.0), kontact (<< 4:4.1.80)
 Replaces: kdepim-dev (<< 4:3.4.0), kontact (<< 4:4.1.80)
 Provides: news-reader
-Conflicts: kde-l10n
 Homepage: http://kontact.kde.org/knode/
 Description: graphical news reader
  KNode is an easy-to-use, convenient newsreader. It is intended to be usable
@@ -195,7 +188,6 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: kdepim-kresources
 Breaks: kontact (<< 4:4.1.80)
 Replaces: kontact (<< 4:4.1.80)
-Conflicts: kde-l10n
 Description: sticky notes application
  KNotes is a program that lets you write sticky notes. The notes are saved
  automatically when you exit the program, and they display when you open the
@@ -217,7 +209,6 @@ Description: notes application for mobile environments
 Package: konsolekalendar
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Conflicts: kde-l10n
 Description: konsole personal organizer
  KonsoleKalendar is a command-line interface to KDE calendars.
  KonsoleKalendar complements KOrganizer by providing a console
@@ -233,7 +224,6 @@ Suggests: gnokii, kjots, ktimetracker, knode
 Homepage: http://kontact.kde.org/
 Breaks: korganizer (<< 4:4.1.80), akregator (<< 4:4.1.80)
 Replaces: korganizer (<< 4:4.1.80), akregator (<< 4:4.1.80)
-Conflicts: kde-l10n
 Description: integrated application for personal information management
  Kontact is the integrated solution to your personal information management
  needs. It combines applications like KMail, KOrganizer and
@@ -259,7 +249,6 @@ Suggests: kdepim-kresources
 Homepage: http://kontact.kde.org/korganizer/
 Breaks: kaddressbook (<< 4:4.1.80), kontact (<< 4:4.1.80)
 Replaces: kaddressbook (<< 4:4.1.80), kontact (<< 4:4.1.80)
-Conflicts: kde-l10n
 Description: calendar and personal organizer
  This package contains KOrganizer, a calendar and scheduling program.
  .
@@ -288,7 +277,6 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Breaks: karm, kontact (<< 4:4.1.80)
 Replaces: karm, kontact (<< 4:4.1.80)
-Conflicts: kde-l10n
 Description: time tracker tool
  KTimetracker is a time tracker for busy people who need to keep track
  of the amount of time they spend on various tasks.
@@ -333,7 +321,6 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Breaks: kmail (<< 4:4.1.80), kdepim-runtime (<< 4:4.4.0)
 Replaces: kmail (<< 4:4.1.80), kdepim-runtime (<< 4:4.4.0)
-Conflicts: kde-l10n
 Description: KDE PIM library
  This is the internal runtime package for applications from the KDE PIM module.
  It contains shared libraries and data which most of KDE PIM applications use.
@@ -365,7 +352,6 @@ Package: libkleo4
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Conflicts: kde-l10n
 Description: certificate based crypto library
  This package contains libkleo, a library for Kleopatra and other parts
  of KDE using certificate-based crypto.
@@ -376,7 +362,6 @@ Package: libkpgp4
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}
-Conflicts: kde-l10n
 Description: gpg based crypto library
  This package contains libkpgp4, a gnupg-library for KMail and other parts of
  kdepim using gpg-based crypto.
@@ -387,7 +372,6 @@ Package: libksieve4
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Conflicts: kde-l10n
 Description: Sieve, the mail filtering language, library
  This library implements a parser and lexer for Sieve, the mail filtering
  language (RFC 3028).
@@ -441,7 +425,6 @@ Package: libmessagecore4
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Conflicts: kde-l10n
 Description: message core library 
  This package contains the message core library. It provides basic e-mail
  message handling facilities.
@@ -452,7 +435,6 @@ Package: libmessagelist4
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Conflicts: kde-l10n
 Description: message list library
  This package contains the message list library. It provides a widget for the
  e-mail message lists with extensive filtering, grouping and useful features.
@@ -463,7 +445,6 @@ Package: libmessageviewer4
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Conflicts: kde-l10n
 Description: message viewer library
  This package contains the message viewer library which implements feature-rich
  and highly configurable widget for viewing e-mail messages.
@@ -517,7 +498,6 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Breaks: kontact (<< 4:4.1.80)
 Replaces: kontact (<< 4:4.1.80)
-Conflicts: kde-l10n
 Section: utils
 Description: note-taking utility 
  Kjots is a notebook utility that organizes notes using groups of pages.
@@ -528,7 +508,6 @@ Package: blogilo
 Section: web
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libqt4-sql-sqlite
-Conflicts: kde-l10n
 Description: graphical blogging client 
  Blogilo is a Free/Open Source Blogging client, focused on simplicity and
  usability. Currently featured:
