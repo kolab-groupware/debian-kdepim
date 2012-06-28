@@ -98,7 +98,7 @@ Description: address book and contact data manager for mobile environments
 Package: kalarm
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}
-Suggests: kttsd | jovie
+Suggests: jovie
 Homepage: http://www.astrojar.org.uk/kalarm/
 Description: alarm message, command and email scheduler
  KAlarm provides a graphical interface to schedule personal timed events -

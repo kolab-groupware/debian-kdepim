@@ -77,6 +77,9 @@ kdepim (4:4.8.4-0r4) UNRELEASED; urgency=low
   * Add watch file.
   * Remove duplicate Section fields from control file.
 
+  [ Pino Toscano ]
+  * Remove kttsd alternative, refer to jovie only.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Mar 2012 21:42:03 +0100
 
 kdepim (4:4.4.11.1+l10n-3) unstable; urgency=low
