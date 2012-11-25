@@ -2,7 +2,8 @@ kdepim (4:4.8.4-0r4) UNRELEASED; urgency=low
 
   * TODO: copyright
 
-  * New upstream release.
+  * New upstream release:
+    - fix spurious rejects of valid email addresses in knode. (Closes: #364677)
 
   [ George Kiagiadakis ]
   * Add myself to uploaders.
