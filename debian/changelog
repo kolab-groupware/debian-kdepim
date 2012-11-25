@@ -2,8 +2,26 @@ kdepim (4:4.8.4-0r4) UNRELEASED; urgency=low
 
   * TODO: copyright
 
-  * New upstream release:
+  * New upstream release (Closes: #672932):
+    - connections in kmail recover better from suspend. (Closes: #317262)
+    - kmail no longer freezes when sending/receiving emails. (Closes: #353762)
+    - korganizer imports correctly .ics files from command line when already
+      running. (Closes: #357809)
     - fix spurious rejects of valid email addresses in knode. (Closes: #364677)
+    - kaddressbook correctly quotes when exporting to CSV. (Closes: #413467)
+    - numeric columns in akregator are now aligned to the right.
+      (Closes: #523742)
+    - akregator selects the next item when deleting an item. (Closes: #529227)
+    - kontact is no longer starting twice (and crashing). (Closes: #540207)
+    - fix idle detection in ktimetracker. (Closes: #545963)
+    - kmail's composer shows insert/overwrite status. (Closes: #548958)
+    - configuration of threaded message list in kmail is documented.
+      (Closes: #556989)
+    - kmail can correctly decode "winmail.dat" attachments. (Closes: #580918)
+    - korganizer is ported to akonadi, notifications from akonadi resources
+      work correctly. (Closes: #584157)
+    - kmail's composer can spell check also the subject. (Closes: #589941)
+    - knode no longers adds/sets the Followup-To header. (Closes: #618902)
 
   [ George Kiagiadakis ]
   * Add myself to uploaders.
