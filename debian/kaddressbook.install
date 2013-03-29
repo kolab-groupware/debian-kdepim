@@ -7,7 +7,7 @@ usr/lib/kde4/kcm_ldap.so
 usr/lib/kde4/kontact_kaddressbookplugin.so
 usr/lib/kde4/ktexteditorkabcbridge.so
 usr/lib/libkaddressbookprivate.so.4
-usr/lib/libkaddressbookprivate.so.4.8.0
+usr/lib/libkaddressbookprivate.so.4.*.*
 usr/share/applications/kde4/kaddressbook.desktop
 usr/share/doc/kde/HTML/*/kabcclient/
 usr/share/icons/hicolor/128x128/apps/kaddressbook.png
@@ -18,6 +18,7 @@ usr/share/icons/hicolor/48x48/apps/kaddressbook.png
 usr/share/icons/hicolor/64x64/apps/kaddressbook.png
 usr/share/icons/hicolor/scalable/apps/kaddressbook.svgz
 usr/share/kde4/apps/kaddressbook/kaddressbookui.rc
+usr/share/kde4/apps/kaddressbook/printing/compact-style.png
 usr/share/kde4/apps/kaddressbook/printing/detailed-style.png
 usr/share/kde4/apps/kaddressbook/printing/mike-style.png
 usr/share/kde4/apps/kaddressbook/printing/ringbinder-style.png

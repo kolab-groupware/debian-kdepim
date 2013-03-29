@@ -2,6 +2,7 @@ usr/bin/kmail-mobile
 usr/share/applications/kde4/kmail-mobile.desktop
 usr/share/icons/hicolor/48x48/apps/kmail-mobile.png
 usr/share/icons/hicolor/64x64/apps/kmail-mobile.png
+usr/share/icons/hicolor/80x80/apps/kmail-mobile-harmattan.png
 usr/share/kde4/apps/kmail-mobile/AclEditor.qml
 usr/share/kde4/apps/kmail-mobile/AttachmentEditor.qml
 usr/share/kde4/apps/kmail-mobile/BulkActionComponent.qml

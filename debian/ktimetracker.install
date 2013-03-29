@@ -1,7 +1,6 @@
 usr/bin/karm
 usr/bin/ktimetracker
 usr/lib/kde4/kcm_ktimetracker.so
-usr/lib/kde4/kontact_ktimetrackerplugin.so
 usr/lib/kde4/ktimetrackerpart.so
 usr/share/applications/kde4/ktimetracker.desktop
 usr/share/doc/kde/HTML/*/ktimetracker/
@@ -11,7 +10,6 @@ usr/share/icons/hicolor/22x22/apps/ktimetracker.png
 usr/share/icons/hicolor/32x32/apps/ktimetracker.png
 usr/share/icons/hicolor/48x48/apps/ktimetracker.png
 usr/share/icons/hicolor/64x64/apps/ktimetracker.png
-usr/share/kde4/apps/kontact/ksettingsdialog/ktimetracker.setdlg
 usr/share/kde4/apps/ktimetracker/icons/oxygen/128x128/actions/subtask-new-ktimetracker.png
 usr/share/kde4/apps/ktimetracker/icons/oxygen/16x16/actions/subtask-new-ktimetracker.png
 usr/share/kde4/apps/ktimetracker/icons/oxygen/22x22/actions/subtask-new-ktimetracker.png
@@ -42,7 +40,6 @@ usr/share/kde4/apps/ktimetracker/pics/watch-4.xpm
 usr/share/kde4/apps/ktimetracker/pics/watch-5.xpm
 usr/share/kde4/apps/ktimetracker/pics/watch-6.xpm
 usr/share/kde4/apps/ktimetracker/pics/watch-7.xpm
-usr/share/kde4/services/kontact/ktimetracker_plugin.desktop
 usr/share/kde4/services/ktimetracker_config_behavior.desktop
 usr/share/kde4/services/ktimetracker_config_display.desktop
 usr/share/kde4/services/ktimetracker_config_storage.desktop

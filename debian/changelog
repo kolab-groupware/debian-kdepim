@@ -1,6 +1,4 @@
-kdepim (4:4.8.4-0r4) UNRELEASED; urgency=low
-
-  * TODO: copyright
+kdepim (4:4.10.1-0r4) UNRELEASED; urgency=low
 
   * New upstream release (Closes: #672932):
     - connections in kmail recover better from suspend. (Closes: #317262)
@@ -98,6 +96,11 @@ kdepim (4:4.8.4-0r4) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * Remove kttsd alternative, refer to jovie only.
+
+  [ Sune Vuorela ]
+  * Don't build-dep on libpisock-dev. kpilot is long gone
+  * Don't build-dep on libgnokii-dev. Nothing uses it.
+  * Update copyright file
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Mar 2012 21:42:03 +0100
 

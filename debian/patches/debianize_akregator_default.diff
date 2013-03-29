@@ -6,11 +6,13 @@ Forwarded: not-needed
 Origin: vendor
 Last-Update: 2012-04-17
 
---- a/akregator/src/akregator_part.cpp
-+++ b/akregator/src/akregator_part.cpp
-@@ -139,6 +139,20 @@
-         look.setAttribute("xmlUrl","http://www.kde.org/kde-look-content.rdf");
-         mainFolder.appendChild(look);
+Index: kdepim/akregator/src/akregator_part.cpp
+===================================================================
+--- kdepim.orig/akregator/src/akregator_part.cpp	2013-03-26 14:04:21.014499565 +0000
++++ kdepim/akregator/src/akregator_part.cpp	2013-03-26 14:04:21.010499593 +0000
+@@ -171,6 +171,20 @@
+         spanishKde.setAttribute("xmlUrl","http://planet.kde-espana.es/");
+         spanishFolder.appendChild(spanishKde);
  
 +        QDomElement debianFolder = doc.createElement( "outline" );
 +        debianFolder.setAttribute("text","Debian");

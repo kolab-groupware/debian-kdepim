@@ -2,6 +2,7 @@ usr/bin/kaddressbook-mobile
 usr/share/applications/kde4/kaddressbook-mobile.desktop
 usr/share/icons/hicolor/48x48/apps/kaddressbook-mobile.png
 usr/share/icons/hicolor/64x64/apps/kaddressbook-mobile.png
+usr/share/icons/hicolor/80x80/apps/kaddressbook-mobile-harmattan.png
 usr/share/kde4/apps/kaddressbook-mobile/BulkActionComponent.qml
 usr/share/kde4/apps/kaddressbook-mobile/ConfigDialog.qml
 usr/share/kde4/apps/kaddressbook-mobile/ContactListView.qml

@@ -2,6 +2,7 @@ usr/bin/tasks-mobile
 usr/share/applications/kde4/tasks-mobile.desktop
 usr/share/icons/hicolor/48x48/apps/tasks-mobile.png
 usr/share/icons/hicolor/64x64/apps/tasks-mobile.png
+usr/share/icons/hicolor/80x80/apps/tasks-mobile-harmattan.png
 usr/share/kde4/apps/notes-mobile/notes.qml
 usr/share/kde4/apps/tasks-mobile/BulkActionComponent.qml
 usr/share/kde4/apps/tasks-mobile/ConfigDialog.qml

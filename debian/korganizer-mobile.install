@@ -2,6 +2,7 @@ usr/bin/korganizer-mobile
 usr/share/applications/kde4/korganizer-mobile.desktop
 usr/share/icons/hicolor/48x48/apps/korganizer-mobile.png
 usr/share/icons/hicolor/64x64/apps/korganizer-mobile.png
+usr/share/icons/hicolor/80x80/apps/korganizer-mobile-harmattan.png
 usr/share/kde4/apps/korganizer-mobile/BulkActionComponent.qml
 usr/share/kde4/apps/korganizer-mobile/ConfigDialog.qml
 usr/share/kde4/apps/korganizer-mobile/EventListComponent.qml
