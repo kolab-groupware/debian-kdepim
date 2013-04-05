@@ -1,4 +1,4 @@
-kdepim (4:4.10.1-0r4) UNRELEASED; urgency=low
+kdepim (4:4.10.2-0r4) UNRELEASED; urgency=low
 
   * New upstream release (Closes: #672932):
     - connections in kmail recover better from suspend. (Closes: #317262)

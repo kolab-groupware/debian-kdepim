@@ -9,12 +9,16 @@ usr/share/applications/kde4/Kontact.desktop
 usr/share/applications/kde4/kontact-admin.desktop
 usr/share/doc/kde/HTML/*/kontact-admin/
 usr/share/doc/kde/HTML/*/kontact/
+usr/share/icons/hicolor/128x128/apps/kontact-import-wizard.png
 usr/share/icons/hicolor/128x128/apps/kontact.png
 usr/share/icons/hicolor/16x16/apps/kontact.png
 usr/share/icons/hicolor/22x22/apps/kontact.png
+usr/share/icons/hicolor/256x256/apps/kontact-import-wizard.png
 usr/share/icons/hicolor/32x32/apps/kontact.png
 usr/share/icons/hicolor/48x48/apps/kontact.png
+usr/share/icons/hicolor/64x64/apps/kontact-import-wizard.png
 usr/share/icons/hicolor/64x64/apps/kontact.png
+usr/share/icons/hicolor/scalable/apps/kontact-import-wizard.svgz
 usr/share/icons/hicolor/scalable/apps/kontact.svgz
 usr/share/kde4/apps/kontact/about/kontact.css
 usr/share/kde4/apps/kontact/about/main.html
