@@ -1,4 +1,4 @@
-kdepim (4:4.10.2-0r4) UNRELEASED; urgency=low
+kdepim (4:4.10.2-1) experimental; urgency=low
 
   * New upstream release (Closes: #672932):
     - connections in kmail recover better from suspend. (Closes: #317262)
@@ -102,8 +102,9 @@ kdepim (4:4.10.2-0r4) UNRELEASED; urgency=low
   * Don't build-dep on libgnokii-dev. Nothing uses it.
   * Shuffle around build-deps for aptitude's sake.
   * Update copyright file
+  * Update uploaders.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Mar 2012 21:42:03 +0100
+ -- Sune Vuorela <sune@debian.org>  Sat, 13 Apr 2013 09:13:50 +0000
 
 kdepim (4:4.4.11.1+l10n-3) unstable; urgency=low
 
