@@ -100,6 +100,7 @@ kdepim (4:4.10.2-0r4) UNRELEASED; urgency=low
   [ Sune Vuorela ]
   * Don't build-dep on libpisock-dev. kpilot is long gone
   * Don't build-dep on libgnokii-dev. Nothing uses it.
+  * Shuffle around build-deps for aptitude's sake.
   * Update copyright file
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Mar 2012 21:42:03 +0100
