@@ -172,8 +172,8 @@ Package: knode
 Section: news
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Breaks: kdepim-dev (<< 4:3.4.0), kontact (<< 4:4.1.80)
-Replaces: kdepim-dev (<< 4:3.4.0), kontact (<< 4:4.1.80)
+Breaks: kdepim-dev (<< 4:3.4.0), kontact (<< 4:4.1.80), libkpgp4 (<< 4:4.10.2)
+Replaces: kdepim-dev (<< 4:3.4.0), kontact (<< 4:4.1.80), libkpgp4 (<< 4:4.10.2)
 Provides: news-reader
 Homepage: http://kontact.kde.org/knode/
 Description: graphical news reader
