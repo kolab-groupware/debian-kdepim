@@ -3,6 +3,7 @@ kdepim (4:4.10.2-2) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Add the pkg-config build dependency.
   * Make knode break/replace libkpgp4 < 4.10.2, as files were moved.
+    (Closes: #705471)
   * Backport upstream commit a24942ac27c27a4a540148292a9e6fbee1c8fff7 (patch
     upstream_Add-missing-mimetype-for-contact-groups-in-the-direc.patch) and
     6a06c57f52a00018d607085efa7570deb91dc707 (patch
