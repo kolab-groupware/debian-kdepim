@@ -9,6 +9,7 @@ kdepim (4:4.10.2-2) UNRELEASED; urgency=low
     6a06c57f52a00018d607085efa7570deb91dc707 (patch
     upstream_Fix-kmail-autocompletion-from-akonadi.patch) to fix autocompletion
     of addresses from akonadi.
+  * Fix encoding of copyright.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 13 Apr 2013 22:42:50 +0200
 
