@@ -1,4 +1,4 @@
-kdepim (4:4.10.2-2) UNRELEASED; urgency=low
+kdepim (4:4.10.2-2) experimental; urgency=low
 
   [ Pino Toscano ]
   * Add the pkg-config build dependency.
@@ -12,7 +12,7 @@ kdepim (4:4.10.2-2) UNRELEASED; urgency=low
   * Fix encoding of copyright.
   * Bump required version of kdepim-runtime to 4.10.2.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 13 Apr 2013 22:42:50 +0200
+ -- Sune Vuorela <sune@debian.org>  Wed, 17 Apr 2013 23:05:59 +0200
 
 kdepim (4:4.10.2-1) experimental; urgency=low
 
