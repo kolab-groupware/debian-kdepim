@@ -1,3 +1,9 @@
+kdepim (4:4.10.3-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 28 May 2013 22:15:44 +0200
+
 kdepim (4:4.10.2-2) experimental; urgency=low
 
   [ Pino Toscano ]
