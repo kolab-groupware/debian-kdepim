@@ -28,7 +28,7 @@ Package: kdepim
 Section: metapackages
 Architecture: all
 Depends: ${misc:Depends}, akregator (>= ${source:Version}), kaddressbook (>= ${source:Version}),
- kalarm (>= ${source:Version}), kdepim-kresources (>= ${source:Version}), 
+ kalarm (>= ${source:Version}), kdepim-kresources (>= ${source:Version}),
  kmail (>= ${source:Version}), knode (>= ${source:Version}), knotes (>= ${source:Version}),
  konsolekalendar (>= ${source:Version}), kontact (>= ${source:Version}), korganizer (>= ${source:Version}),
  ktimetracker (>= ${source:Version}), kdepim-strigi-plugins (>= ${source:Version}), kjots (>= ${source:Version}),
@@ -62,12 +62,12 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Breaks: kontact (<< 4:4.1.80)
 Replaces: kontact (<< 4:4.1.80)
 Homepage: http://akregator.kde.org/
-Description: RSS/Atom feed aggregator 
- Akregator is a news feed reader. It enables you to follow  
- news sites, blogs and other RSS/Atom-enabled websites without the need to 
- manually check for updates using a web browser. Akregator is designed to be 
- both easy to use and to be powerful enough to read hundreds of news sources 
- conveniently. It comes with Konqueror integration for adding news feeds and 
+Description: RSS/Atom feed aggregator
+ Akregator is a news feed reader. It enables you to follow
+ news sites, blogs and other RSS/Atom-enabled websites without the need to
+ manually check for updates using a web browser. Akregator is designed to be
+ both easy to use and to be powerful enough to read hundreds of news sources
+ conveniently. It comes with Konqueror integration for adding news feeds and
  with an internal browser for easy news reading.
  .
  This package is part of the KDE PIM module.
@@ -80,8 +80,8 @@ Suggests: kdepim-kresources
 Breaks: korganizer (<< 4:4.1.80), kontact (<< 4:4.1.80)
 Replaces: korganizer (<< 4:4.1.80), kontact (<< 4:4.1.80)
 Description: address book and contact data manager
- KAddressBook enables you to manage your contacts efficiently and comfortably. 
- It can load and save your contacts to many different locations, including 
+ KAddressBook enables you to manage your contacts efficiently and comfortably.
+ It can load and save your contacts to many different locations, including
  the local file system, LDAP servers, and SQL databases.
  .
  This package is part of the KDE PIM module.
@@ -445,7 +445,7 @@ Package: libmessagecore4
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: message core library 
+Description: message core library
  This package contains the message core library. It provides basic e-mail
  message handling facilities.
  .
@@ -519,7 +519,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Breaks: kontact (<< 4:4.1.80)
 Replaces: kontact (<< 4:4.1.80)
 Section: utils
-Description: note-taking utility 
+Description: note-taking utility
  Kjots is a notebook utility that organizes notes using groups of pages.
  .
  This package is part of the KDE PIM module.
@@ -528,7 +528,7 @@ Package: blogilo
 Section: web
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libqt4-sql-sqlite
-Description: graphical blogging client 
+Description: graphical blogging client
  Blogilo is a Free/Open Source Blogging client, focused on simplicity and
  usability. Currently featured:
  .
