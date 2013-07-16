@@ -1,0 +1,29 @@
+Description: change in spambayes executable name
+ Debian specific, script files in bin should not include a extension.
+Author: Alexandre Fayolle <afayolle@debian.org>
+Bug: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=602798
+Forwarded: no
+Reviewed-by: Maximiliano Curia <maxy@debian.org>
+Last-Update: 2013-07-16
+Index: kdepim/kmail/kmail.antispamrc
+===================================================================
+--- kdepim.orig/kmail/kmail.antispamrc	2013-07-16 18:30:16.986985116 +0200
++++ kdepim/kmail/kmail.antispamrc	2013-07-16 18:36:12.667243825 +0200
+@@ -97,13 +97,13 @@
+ Version=1
+ Priority=20
+ VisibleName=SpamBayes
+-Executable=sb_filter.py -h
++Executable=sb_filter -h
+ URL=http://spambayes.sourceforge.net
+ PipeFilterName=SpamBayes Check
+-PipeCmdDetect=sb_filter.py
++PipeCmdDetect=sb_filter
+ PipeCmdNoSpam=
+-ExecCmdSpam=sb_filter.py -s
+-ExecCmdHam=sb_filter.py -g
++ExecCmdSpam=sb_filter -s
++ExecCmdHam=sb_filter -g
+ DetectionHeader=X-Spambayes-Classification
+ DetectionPattern=spam
+ DetectionPattern2=unsure
