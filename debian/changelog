@@ -1,5 +1,9 @@
 kdepim (4:4.10.5-2) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Backport upstream commit fe8ab0c4b6bebe0e5806a870b0946e13bec92c7e to
+    switch off the default value of the "Reply using HTML if present" option
+    in KMail; patch kmail_reply-as-html.diff. (Closes: #717113)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 21 Jul 2013 13:24:07 +0200
 
