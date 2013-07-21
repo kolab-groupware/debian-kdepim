@@ -5,6 +5,11 @@ kdepim (4:4.10.5-2) UNRELEASED; urgency=low
     switch off the default value of the "Reply using HTML if present" option
     in KMail; patch kmail_reply-as-html.diff. (Closes: #717113)
   * Update lintian overrides.
+  * Backport upstream commits 2b160d53fe9c83fc2a0e65e510d0f02cb8670552 and
+    596c0df2933c1af13944d9a0c8e70d0f3e9966b0 to make the dates in organizer
+    templates not override the user's choice; patches korganizer_templates.diff
+    and upstream_Use-the-template-time-in-a-special-case.patch.
+    (Closes: #717093)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 21 Jul 2013 13:24:07 +0200
 

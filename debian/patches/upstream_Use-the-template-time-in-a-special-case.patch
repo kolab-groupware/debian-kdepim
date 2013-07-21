@@ -1,0 +1,141 @@
+From 596c0df2933c1af13944d9a0c8e70d0f3e9966b0 Mon Sep 17 00:00:00 2001
+From: Sergio Martins <iamsergio@gmail.com>
+Date: Sun, 21 Jul 2013 16:20:21 +0100
+Subject: [PATCH] Use the template time in a special case.
+
+Templates dates are never use, but it's useful to use the time
+if the user didn't choose any time yet.
+---
+ incidenceeditor-ng/incidencedatetime.cpp |   33 ++++++++++++++++--------------
+ incidenceeditor-ng/incidencedatetime.h   |    6 +++---
+ 2 files changed, 21 insertions(+), 18 deletions(-)
+
+diff --git a/incidenceeditor-ng/incidencedatetime.cpp b/incidenceeditor-ng/incidencedatetime.cpp
+index d9af494..d99ba95 100644
+--- a/incidenceeditor-ng/incidencedatetime.cpp
++++ b/incidenceeditor-ng/incidencedatetime.cpp
+@@ -48,14 +48,14 @@ using namespace IncidenceEditorNG;
+  */
+ static bool incidenceHasDefaultTimes( const KCalCore::Incidence::Ptr &incidence )
+ {
+-  if (incidence->allDay())
++  if (!incidence || incidence->allDay())
+     return false;
+ 
+   QTime defaultDuration = CalendarSupport::KCalPrefs::instance()->defaultDuration().time();
+   if ( !defaultDuration.isValid() )
+     return false;
+ 
+-  QTime defaultStart = CalendarSupport::KCalPrefs::instance()->defaultDuration().time();
++  QTime defaultStart = CalendarSupport::KCalPrefs::instance()->mStartTime.time();
+   if ( !defaultStart.isValid() )
+     return false;
+ 
+@@ -158,16 +158,23 @@ bool IncidenceDateTime::eventFilter( QObject *obj, QEvent *event )
+ 
+ void IncidenceDateTime::load( const KCalCore::Incidence::Ptr &incidence )
+ {
++  if (mLoadedIncidence && *mLoadedIncidence == *incidence) {
++    return;
++  }
++
++  const bool isTemplate             = incidence->customProperty( "kdepim", "isTemplate" ) == "true";
++  const bool templateOverridesTimes = incidenceHasDefaultTimes( mLoadedIncidence );
++
+   mLoadedIncidence = incidence;
+   mLoadingIncidence = true;
+ 
+   // We can only handle events or todos.
+   if ( KCalCore::Todo::Ptr todo = IncidenceDateTime::incidence<KCalCore::Todo>() ) {
+-    load( todo );
++    load( todo, isTemplate, templateOverridesTimes );
+   } else if ( KCalCore::Event::Ptr event = IncidenceDateTime::incidence<KCalCore::Event>() ) {
+-    load( event );
++    load( event, isTemplate, templateOverridesTimes );
+   } else if ( KCalCore::Journal::Ptr journal = IncidenceDateTime::incidence<KCalCore::Journal>() ) {
+-    load( journal );
++    load( journal, isTemplate, templateOverridesTimes );
+   } else {
+     kDebug() << "Not an Incidence.";
+   }
+@@ -541,7 +548,7 @@ KDateTime IncidenceDateTime::currentEndDateTime() const
+     mUi->mTimeZoneComboEnd->selectedTimeSpec() );
+ }
+ 
+-void IncidenceDateTime::load( const KCalCore::Event::Ptr &event )
++void IncidenceDateTime::load( const KCalCore::Event::Ptr &event, bool isTemplate, bool templateOverridesTimes )
+ {
+   // First en/disable the necessary ui bits and pieces
+   mUi->mStartCheck->setVisible( false );
+@@ -577,9 +584,8 @@ void IncidenceDateTime::load( const KCalCore::Event::Ptr &event )
+   mUi->mWholeDayCheck->setChecked( event->allDay() );
+   enableTimeEdits();
+ 
+-  const bool isTemplate = event->customProperty( "kdepim", "isTemplate" ) == "true";
+   if ( isTemplate ) {
+-    if ( incidenceHasDefaultTimes( event ) ) {
++    if ( templateOverridesTimes ) {
+         // We only use the template times if the user didn't override them.
+         setTimes( event->dtStart(), event->dtEnd() );
+     }
+@@ -599,7 +605,7 @@ void IncidenceDateTime::load( const KCalCore::Event::Ptr &event )
+   }
+ }
+ 
+-void IncidenceDateTime::load( const KCalCore::Journal::Ptr &journal )
++void IncidenceDateTime::load( const KCalCore::Journal::Ptr &journal, bool isTemplate, bool templateOverridesTimes )
+ {
+   // First en/disable the necessary ui bits and pieces
+   mUi->mStartCheck->setVisible( false );
+@@ -623,9 +629,8 @@ void IncidenceDateTime::load( const KCalCore::Journal::Ptr &journal )
+   mUi->mWholeDayCheck->setChecked( journal->allDay() );
+   enableTimeEdits();
+ 
+-  const bool isTemplate = journal->customProperty( "kdepim", "isTemplate" ) == "true";
+   if ( isTemplate ) {
+-    if ( incidenceHasDefaultTimes( journal ) ) {
++    if ( templateOverridesTimes ) {
+         // We only use the template times if the user didn't override them.
+         setTimes( journal->dtStart(), KDateTime() );
+     }
+@@ -640,7 +645,7 @@ void IncidenceDateTime::load( const KCalCore::Journal::Ptr &journal )
+   }
+ }
+ 
+-void IncidenceDateTime::load( const KCalCore::Todo::Ptr &todo )
++void IncidenceDateTime::load( const KCalCore::Todo::Ptr &todo, bool isTemplate, bool templateOverridesTimes )
+ {
+   // First en/disable the necessary ui bits and pieces
+   mUi->mStartCheck->setVisible( true );
+@@ -680,10 +685,8 @@ void IncidenceDateTime::load( const KCalCore::Todo::Ptr &todo )
+ 
+   const KDateTime rightNow = KDateTime( QDate::currentDate(), QTime::currentTime() ).toLocalZone();
+ 
+-
+-  const bool isTemplate = todo->customProperty( "kdepim", "isTemplate" ) == "true";
+   if ( isTemplate ) {
+-    if ( incidenceHasDefaultTimes( todo ) ) {
++    if ( templateOverridesTimes ) {
+         // We only use the template times if the user didn't override them.
+         setTimes( todo->dtStart(), todo->dateTime(KCalCore::Incidence::RoleEnd) );
+     }
+diff --git a/incidenceeditor-ng/incidencedatetime.h b/incidenceeditor-ng/incidencedatetime.h
+index 6642ba2..48e768c 100644
+--- a/incidenceeditor-ng/incidencedatetime.h
++++ b/incidenceeditor-ng/incidencedatetime.h
+@@ -111,9 +111,9 @@ class INCIDENCEEDITORS_NG_EXPORT IncidenceDateTime : public IncidenceEditor
+     bool eventFilter( QObject *obj, QEvent *event );
+ 
+   private:
+-    void load( const KCalCore::Event::Ptr &event );
+-    void load( const KCalCore::Todo::Ptr &todo );
+-    void load( const KCalCore::Journal::Ptr &journal );
++    void load( const KCalCore::Event::Ptr &event, bool isTemplate = false, bool templateOverridesTimes = false );
++    void load( const KCalCore::Todo::Ptr &todo, bool isTemplate = false, bool templateOverridesTimes = false );
++    void load( const KCalCore::Journal::Ptr &journal, bool isTemplate = false, bool templateOverridesTimes = false );
+     void save( const KCalCore::Event::Ptr &event );
+     void save( const KCalCore::Todo::Ptr &todo );
+     void save( const KCalCore::Journal::Ptr &journal );
+-- 
+1.7.10.4
+
