@@ -1,4 +1,4 @@
-kdepim (4:4.10.5-2) UNRELEASED; urgency=low
+kdepim (4:4.10.5-2) unstable; urgency=low
 
   [ Maximiliano Curia ]
   * New patch: spambayes.patch, thanks to Alexandre Fayolle
@@ -16,7 +16,7 @@ kdepim (4:4.10.5-2) UNRELEASED; urgency=low
     and upstream_Use-the-template-time-in-a-special-case.patch.
     (Closes: #717093)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 21 Jul 2013 13:24:07 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 06 Aug 2013 09:38:57 +0200
 
 kdepim (4:4.10.5-1) unstable; urgency=low
 
