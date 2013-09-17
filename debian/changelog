@@ -11,6 +11,7 @@ kdepim (4:4.11.1-1) UNRELEASED; urgency=low
   * Add new packages: libcomposereditor4, libgrammar4, libpimactivity4,
     libsendlater4.
   * Update install files.
+  * Remove kdepim-strigi-plugins package.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 03 Sep 2013 20:20:12 +0200
 

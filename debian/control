@@ -37,7 +37,7 @@ Depends: ${misc:Depends}, akregator (>= ${source:Version}), kaddressbook (>= ${s
  kalarm (>= ${source:Version}), kdepim-kresources (>= ${source:Version}),
  kmail (>= ${source:Version}), knode (>= ${source:Version}), knotes (>= ${source:Version}),
  konsolekalendar (>= ${source:Version}), kontact (>= ${source:Version}), korganizer (>= ${source:Version}),
- ktimetracker (>= ${source:Version}), kdepim-strigi-plugins (>= ${source:Version}), kjots (>= ${source:Version}),
+ ktimetracker (>= ${source:Version}), kjots (>= ${source:Version}),
  kleopatra (>= ${source:Version}), blogilo (>= ${source:Version}),
  akonadiconsole (>= ${source:Version})
 Description: Personal Information Management apps from the official KDE release
@@ -598,7 +598,6 @@ Depends: ${misc:Depends}, kdepimlibs-dbg,
  kaddressbook (= ${binary:Version}) |
  kalarm (= ${binary:Version}) |
  kdepim-kresources (= ${binary:Version}) |
- kdepim-strigi-plugins (= ${binary:Version}) |
  kjots (= ${binary:Version}) |
  kleopatra (= ${binary:Version}) |
  kmail (= ${binary:Version}) |
