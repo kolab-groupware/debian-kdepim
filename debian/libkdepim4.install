@@ -1,4 +1,6 @@
 usr/lib/kde4/plugins/designer/kdepimwidgets.so
+usr/lib/kde4/plugins/designer/mailcommonwidgets.so
+usr/lib/kde4/plugins/designer/pimcommonwidgets.so
 usr/lib/libakonadi_next.so.4
 usr/lib/libakonadi_next.so.4.*.*
 usr/lib/libkcal_resourceremote.so.4

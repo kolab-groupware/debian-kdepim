@@ -1,0 +1,4 @@
+usr/lib/kde4/kcm_pimactivity.so
+usr/lib/libpimactivity.so.4
+usr/lib/libpimactivity.so.4.*
+usr/share/kde4/services/kcmpimactivity.desktop

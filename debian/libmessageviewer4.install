@@ -22,3 +22,4 @@ usr/share/kde4/apps/libmessageviewer/pics/quicklistOpened.png
 usr/share/kde4/apps/libmessageviewer/pics/quotecollapse.png
 usr/share/kde4/apps/libmessageviewer/pics/quoteexpand.png
 usr/share/kde4/apps/messageviewer/plugins/bodypartformatter/application_ms-tnef.desktop
+usr/share/kde4/config/messageviewer_header_themes.knsrc

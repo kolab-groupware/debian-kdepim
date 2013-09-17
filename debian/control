@@ -303,6 +303,13 @@ Description: calendar support library
  .
  This package is part of the KDE PIM module.
 
+Package: libcomposereditorng4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: compose editor library
+ This package is part of the KDE PIM module.
+
 Package: libeventviews4
 Section: libs
 Architecture: any
@@ -311,6 +318,13 @@ Description: event viewing library
  This internal library implements a GUI framework for viewing various calendar
  events in agenda, list, month view or timeline fashion.
  .
+ This package is part of the KDE PIM module.
+
+Package: libgrammar4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: grammar library
  This package is part of the KDE PIM module.
 
 Package: libincidenceeditorsng4
@@ -477,6 +491,20 @@ Description: message viewer library
  .
  This package is part of the KDE PIM module.
 
+Package: libpimactivity4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: pim activity library
+ This package is part of the KDE PIM module.
+
+Package: libsendlater4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: send later library
+ This package is part of the KDE PIM module.
+
 Package: libtemplateparser4
 Section: libs
 Architecture: any
@@ -509,15 +537,6 @@ Description: common data files for KDE PIM mobile applications
  icons and images used by these shared UI elements.
  .
  This package is part of the KDE PIM module.
-
-Package: kdepim-strigi-plugins
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: PIM file format plugins for Strigi Desktop Search
- This package contains plugins to allow Strigi Desktop Search to easily
- index your PIM-data (calendar, contacts, emails, ...).
- .
- This package is part of KDE, and a component of the KDE PIM module.
 
 Package: kjots
 Architecture: any

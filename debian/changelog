@@ -8,6 +8,9 @@ kdepim (4:4.11.1-1) UNRELEASED; urgency=low
     - korganizer_templates.diff: removed, applied upstream.
   * Update build-dependencies.
   * Add support for building mobile applications.
+  * Add new packages: libcomposereditor4, libgrammar4, libpimactivity4,
+    libsendlater4.
+  * Update install files.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 03 Sep 2013 20:20:12 +0200
 
