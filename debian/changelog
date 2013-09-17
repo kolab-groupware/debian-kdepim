@@ -6,6 +6,7 @@ kdepim (4:4.11.1-1) UNRELEASED; urgency=low
     - upstream_Use-the-template-time-in-a-special-case.patch: removed, applied
       upstream.
     - korganizer_templates.diff: removed, applied upstream.
+  * Update build-dependencies.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 03 Sep 2013 20:20:12 +0200
 
