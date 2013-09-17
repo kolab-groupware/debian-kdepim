@@ -4,11 +4,11 @@ Author: Alexandre Fayolle <afayolle@debian.org>
 Bug: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=602798
 Forwarded: no
 Reviewed-by: Maximiliano Curia <maxy@debian.org>
-Last-Update: 2013-07-16
-Index: kdepim/kmail/kmail.antispamrc
+Last-Update: 2013-09-17
+Index: kdepim/kmail/antispam-virus/kmail.antispamrc
 ===================================================================
---- kdepim.orig/kmail/kmail.antispamrc	2013-07-16 18:30:16.986985116 +0200
-+++ kdepim/kmail/kmail.antispamrc	2013-07-16 18:36:12.667243825 +0200
+--- kdepim.orig/kmail/antispam-virus/kmail.antispamrc	2013-09-17 07:12:57.833408363 +0000
++++ kdepim/kmail/antispam-virus/kmail.antispamrc	2013-09-17 08:28:16.824756061 +0000
 @@ -97,13 +97,13 @@
  Version=1
  Priority=20

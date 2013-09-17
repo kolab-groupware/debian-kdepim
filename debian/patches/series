@@ -1,5 +1,2 @@
 debianize_akregator_default.diff
 spambayes.patch
-kmail_reply-as-html.diff
-korganizer_templates.diff
-upstream_Use-the-template-time-in-a-special-case.patch
