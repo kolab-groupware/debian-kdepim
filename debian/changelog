@@ -1,4 +1,4 @@
-kdepim (4:4.11.2-1) UNRELEASED; urgency=low
+kdepim (4:4.11.2-1) experimental; urgency=low
 
   * New upstream release.
   * Refresh patches:
@@ -13,7 +13,7 @@ kdepim (4:4.11.2-1) UNRELEASED; urgency=low
   * Update install files.
   * Remove kdepim-strigi-plugins package.
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 05 Oct 2013 13:10:34 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 05 Oct 2013 13:20:18 +0200
 
 kdepim (4:4.10.5-2) unstable; urgency=low
 
