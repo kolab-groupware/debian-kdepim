@@ -1,8 +1,8 @@
-kdepim (4:4.11.2-1r1) UNRELEASED; urgency=low
+kdepim (4:4.11.2-2) experimental; urgency=low
 
   * Update build-dependencies.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 18 Oct 2013 14:21:12 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 18 Oct 2013 20:06:43 +0200
 
 kdepim (4:4.11.2-1) experimental; urgency=low
 
