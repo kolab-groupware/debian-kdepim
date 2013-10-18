@@ -11,7 +11,7 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>
 Build-Depends: kde-sc-dev-latest (>= 4:4.10.2),
  cmake, debhelper (>= 9), pkg-kde-tools (>= 0.12),
- kdepimlibs5-dev (>= 4:4.10.2), libphonon-dev (>= 4:4.6.0really4.3.80),
+ kdepimlibs5-dev (>= 4:4.11), libphonon-dev (>= 4:4.6.0really4.3.80),
  pkg-config,
  libgpgme11-dev, libboost-dev (>= 1.40.0-2), libboost-graph-dev (>= 1.40.0-2),
  libsasl2-dev,
@@ -20,10 +20,11 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.10.2),
  libsearchclient-dev (>= 0.6.3),
  libstrigihtmlgui-dev (>= 0.6.3), libstrigiqtdbusclient-dev (>= 0.6.3),
  zlib1g-dev,
- libakonadi-dev (>= 1.7.2), shared-desktop-ontologies (>= 0.6.50),
+ libakonadi-dev (>= 1.9.51), shared-desktop-ontologies (>= 0.6.50),
  libgrantlee-dev, libqtwebkit-dev, libqt4-opengl-dev, libprison-dev,
  nepomuk-core-dev,
- libnepomukwidgets-dev, akonadi-server, liblink-grammar4-dev, libkactivities-dev
+ libnepomukwidgets-dev, akonadi-server, liblink-grammar4-dev,
+ libkactivities-dev (>= 4:4.11)
 Build-Depends-Indep: dblatex
 Standards-Version: 3.9.4
 Homepage: http://pim.kde.org/
