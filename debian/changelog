@@ -1,3 +1,9 @@
+kdepim (4:4.11.4-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 06 Dec 2013 16:05:36 +0100
+
 kdepim (4:4.11.3-1) unstable; urgency=low
 
   * New upstream release.
