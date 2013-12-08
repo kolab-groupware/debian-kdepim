@@ -1,3 +1,8 @@
+kdepim (4:4.11.3-2) UNRELEASED; urgency=low
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 Dec 2013 10:26:19 +0100
+
 kdepim (4:4.11.3-1) unstable; urgency=low
 
   * New upstream release.
