@@ -1,5 +1,7 @@
 kdepim (4:4.11.3-2) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * kmail.install: do not hardcode the minor grantlee version.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 Dec 2013 10:26:19 +0100
 
