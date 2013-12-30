@@ -20,7 +20,7 @@ usr/lib/kde4/messageviewer_bodypartformatter_text_calendar.so
 usr/lib/kde4/messageviewer_bodypartformatter_text_vcard.so
 usr/lib/kde4/messageviewer_bodypartformatter_text_xdiff.so
 usr/lib/kde4/plugins/accessible/messagevieweraccessiblewidgetfactory.so
-usr/lib/kde4/plugins/grantlee/0.3/grantlee_messageheaderfilters.so
+usr/lib/kde4/plugins/grantlee/0.*/grantlee_messageheaderfilters.so
 usr/lib/libkmailprivate.so.4
 usr/lib/libkmailprivate.so.4.*.*
 usr/share/akonadi/agents/archivemailagent.desktop
