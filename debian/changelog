@@ -1,4 +1,4 @@
-kdepim (4:4.11.5-1) UNRELEASED; urgency=low
+kdepim (4:4.11.5-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -10,7 +10,7 @@ kdepim (4:4.11.5-1) UNRELEASED; urgency=low
   * Bump Standards-Version to 3.9.5, no changes needed.
   * New patch: disable_test_verify
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 28 Jan 2014 10:21:56 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 28 Jan 2014 17:55:47 +0100
 
 kdepim (4:4.11.3-1) unstable; urgency=low
 
