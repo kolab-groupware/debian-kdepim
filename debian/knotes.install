@@ -15,8 +15,8 @@ usr/share/icons/hicolor/32x32/apps/knotes.png
 usr/share/icons/hicolor/48x48/apps/knotes.png
 usr/share/icons/hicolor/64x64/apps/knotes.png
 usr/share/icons/hicolor/scalable/apps/knotes.svgz
-usr/share/kde4/apps/knotes/knotesappui.rc
 usr/share/kde4/apps/knotes/knotes_part.rc
+usr/share/kde4/apps/knotes/knotesappui.rc
 usr/share/kde4/apps/knotes/knotesui.rc
 usr/share/kde4/apps/kontact/ksettingsdialog/knotes.setdlg
 usr/share/kde4/config.kcfg/knoteconfig.kcfg
