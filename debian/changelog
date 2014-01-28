@@ -5,6 +5,9 @@ kdepim (4:4.11.5-1) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * kmail.install: do not hardcode the minor grantlee version.
 
+  [ Maximiliano Curia ]
+  * Add autopkgtests.
+
  -- Maximiliano Curia <maxy@debian.org>  Tue, 28 Jan 2014 10:21:56 +0100
 
 kdepim (4:4.11.3-1) unstable; urgency=low
