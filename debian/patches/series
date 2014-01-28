@@ -1,2 +1,3 @@
 debianize_akregator_default.diff
 spambayes.patch
+disable_test_verify

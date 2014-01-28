@@ -1,0 +1,13 @@
+Index: kdepim/kleopatra/tests/CMakeLists.txt
+===================================================================
+--- kdepim.orig/kleopatra/tests/CMakeLists.txt	2014-01-28 10:23:22.448367127 +0100
++++ kdepim/kleopatra/tests/CMakeLists.txt	2014-01-28 16:23:37.908433875 +0100
+@@ -54,7 +54,7 @@
+ add_definitions(-DKLEO_TEST_GNUPGHOME=\\"${CMAKE_CURRENT_SOURCE_DIR}/gnupg_home\\")
+ add_definitions(-DKLEO_TEST_DATADIR=\\"${CMAKE_CURRENT_SOURCE_DIR}\\")
+ 
+-kde4_add_unit_test(test_verify TESTNAME kleo-verifytest ${test_verify_SRCS})
++# kde4_add_unit_test(test_verify TESTNAME kleo-verifytest ${test_verify_SRCS})
+ 
+ target_link_libraries(test_verify
+   kleo

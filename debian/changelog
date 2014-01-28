@@ -8,6 +8,7 @@ kdepim (4:4.11.5-1) UNRELEASED; urgency=low
   [ Maximiliano Curia ]
   * Add autopkgtests.
   * Bump Standards-Version to 3.9.5, no changes needed.
+  * New patch: disable_test_verify
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 28 Jan 2014 10:21:56 +0100
 
