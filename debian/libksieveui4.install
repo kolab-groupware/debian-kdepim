@@ -1,2 +1,3 @@
 usr/lib/libksieveui.so.4
-usr/lib/libksieveui.so.4.*.*
+usr/lib/libksieveui.so.4.*
+usr/share/kde4/config/ksieve_script.knsrc

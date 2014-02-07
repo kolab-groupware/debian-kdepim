@@ -2,6 +2,8 @@ kdepim (4:4.12.2-1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Update build dependencies.
+  * New binary package: libfolderarchive4
+  * Update install files.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Feb 2014 19:09:52 +0100
 

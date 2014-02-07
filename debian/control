@@ -363,6 +363,13 @@ Description: event viewing library
  .
  This package is part of the KDE PIM module.
 
+Package: libfolderarchive4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: folder archive library
+ This package is part of the KDE PIM module.
+
 Package: libgrammar4
 Section: libs
 Architecture: any
