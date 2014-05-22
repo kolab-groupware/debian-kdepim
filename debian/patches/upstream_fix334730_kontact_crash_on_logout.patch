@@ -1,0 +1,22 @@
+commit 990d6c87eb243d03f7c067d661278cf3aff22fed
+Author: Montel Laurent <montel@kde.org>
+Date:   Wed May 14 21:31:10 2014 +0200
+
+    Fix Bug 334730 - Kontact crash on logout
+    
+    BUG: 334730
+    FIXED-IN: 4.13.2
+
+diff --git a/kmail/kmmainwidget.cpp b/kmail/kmmainwidget.cpp
+index 7d24201..5d3a66a 100644
+--- a/kmail/kmmainwidget.cpp
++++ b/kmail/kmmainwidget.cpp
+@@ -1157,7 +1157,7 @@ void KMMainWidget::updateMoveAction( bool hasUnreadMails, bool hasMails )
+     actionCollection()->action( QLatin1String("go_next_unread_message") )->setEnabled( enable_goto_unread );
+     actionCollection()->action( QLatin1String("go_prev_message") )->setEnabled( hasMails );
+     actionCollection()->action( QLatin1String("go_prev_unread_message") )->setEnabled( enable_goto_unread );
+-    if ( mAkonadiStandardActionManager->action( Akonadi::StandardMailActionManager::MarkAllMailAsRead ) ) {
++    if ( mAkonadiStandardActionManager && mAkonadiStandardActionManager->action( Akonadi::StandardMailActionManager::MarkAllMailAsRead ) ) {
+         mAkonadiStandardActionManager->action( Akonadi::StandardMailActionManager::MarkAllMailAsRead )->setEnabled(hasUnreadMails);
+     }
+ }

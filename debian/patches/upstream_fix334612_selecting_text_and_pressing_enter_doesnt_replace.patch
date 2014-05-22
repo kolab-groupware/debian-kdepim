@@ -1,0 +1,88 @@
+commit dc110d65dcc38af6989ceb3d503271302539c937
+Author: Montel Laurent <montel@kde.org>
+Date:   Mon May 12 07:46:03 2014 +0200
+
+    Fix Bug 334612 - Selecting text and pressing enter doesn't replace the text but only adds a newline
+    
+    FIXED-IN: 4.13.1
+    BUG: 334612
+
+diff --git a/messagecomposer/composer/kmeditor.cpp b/messagecomposer/composer/kmeditor.cpp
+index ac38ce9..9f5ad4c 100644
+--- a/messagecomposer/composer/kmeditor.cpp
++++ b/messagecomposer/composer/kmeditor.cpp
+@@ -249,7 +249,7 @@ void KMeditor::keyPressEvent ( QKeyEvent *e )
+         emit focusUp();
+     } else {
+         if((e->key() == Qt::Key_Space) || (e->key() == Qt::Key_Enter) || (e->key() == Qt::Key_Return)) {
+-            if(d->mAutoCorrection && !isLineQuoted(textCursor().block().text())) {
++            if(d->mAutoCorrection && !isLineQuoted(textCursor().block().text()) && !textCursor().hasSelection()) {
+                 const QTextCharFormat initialTextFormat = textCursor().charFormat();
+                 const bool richText = (textMode() == KRichTextEdit::Rich);
+                 int position = textCursor().position();
+diff --git a/pimcommon/autocorrection/widgets/lineeditwithautocorrection.cpp b/pimcommon/autocorrection/widgets/lineeditwithautocorrection.cpp
+index 1b6f26d..f01ef9d 100644
+--- a/pimcommon/autocorrection/widgets/lineeditwithautocorrection.cpp
++++ b/pimcommon/autocorrection/widgets/lineeditwithautocorrection.cpp
+@@ -56,7 +56,7 @@ void LineEditWithAutoCorrection::setAutocorrectionLanguage(const QString &langua
+ void LineEditWithAutoCorrection::keyPressEvent ( QKeyEvent *e )
+ {
+     if ((e->key() == Qt::Key_Space) || (e->key() == Qt::Key_Enter) || (e->key() == Qt::Key_Return)) {
+-        if (mAutoCorrection) {
++        if (mAutoCorrection && !textCursor().hasSelection()) {
+             // no Html format in subject.
+             int position = textCursor().position();
+             mAutoCorrection->autocorrect(false, *document(), position);
+diff --git a/pimcommon/autocorrection/widgets/richtexteditwithautocorrection.cpp b/pimcommon/autocorrection/widgets/richtexteditwithautocorrection.cpp
+index a1774b4..4318ea4 100644
+--- a/pimcommon/autocorrection/widgets/richtexteditwithautocorrection.cpp
++++ b/pimcommon/autocorrection/widgets/richtexteditwithautocorrection.cpp
+@@ -62,26 +62,28 @@ static bool isSpecial( const QTextCharFormat &charFormat )
+ void RichTextEditWithAutoCorrection::keyPressEvent ( QKeyEvent *e )
+ {
+     if ((e->key() == Qt::Key_Space) || (e->key() == Qt::Key_Enter) || (e->key() == Qt::Key_Return)) {
+-        const QTextCharFormat initialTextFormat = textCursor().charFormat();
+-        const bool richText = acceptRichText();
+-        int position = textCursor().position();
+-        mAutoCorrection->autocorrect(richText, *document(), position);
+-        QTextCursor cur = textCursor();
+-        cur.setPosition(position);
+-        if (e->key() == Qt::Key_Space) {
+-            if (richText && !isSpecial(initialTextFormat))
+-                cur.insertText(QLatin1String(" "), initialTextFormat);
+-            else
+-                cur.insertText(QLatin1String(" "));
+-            setTextCursor(cur);
+-          return;
+-        } else {
+-            if (richText && !isSpecial(initialTextFormat))
+-                cur.insertText(QLatin1String("\n"), initialTextFormat);
+-            else
+-                cur.insertText(QLatin1String("\n"));
+-            setTextCursor(cur);
+-          return;
++        if (!textCursor().hasSelection()) {
++            const QTextCharFormat initialTextFormat = textCursor().charFormat();
++            const bool richText = acceptRichText();
++            int position = textCursor().position();
++            mAutoCorrection->autocorrect(richText, *document(), position);
++            QTextCursor cur = textCursor();
++            cur.setPosition(position);
++            if (e->key() == Qt::Key_Space) {
++                if (richText && !isSpecial(initialTextFormat))
++                    cur.insertText(QLatin1String(" "), initialTextFormat);
++                else
++                    cur.insertText(QLatin1String(" "));
++                setTextCursor(cur);
++                return;
++            } else {
++                if (richText && !isSpecial(initialTextFormat))
++                    cur.insertText(QLatin1String("\n"), initialTextFormat);
++                else
++                    cur.insertText(QLatin1String("\n"));
++                setTextCursor(cur);
++                return;
++            }
+         }
+     }
+     PimCommon::RichTextEditor::keyPressEvent( e );

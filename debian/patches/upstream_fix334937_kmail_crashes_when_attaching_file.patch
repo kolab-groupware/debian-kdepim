@@ -1,0 +1,22 @@
+commit e3b1eb838c4d14be616bd90c0f7f19dedce5f58f
+Author: Montel Laurent <montel@kde.org>
+Date:   Sat May 17 14:22:05 2014 +0200
+
+    Fix Bug 334937 - Kmail crashes when attaching a file if "enable detection of missing attachments" is not selected
+    
+    FIXED-IN: 4.13.2
+    BUG: 334937
+
+diff --git a/kmail/editor/kmcomposewin.cpp b/kmail/editor/kmcomposewin.cpp
+index 93084e8..58501aa 100644
+--- a/kmail/editor/kmcomposewin.cpp
++++ b/kmail/editor/kmcomposewin.cpp
+@@ -221,7 +221,7 @@ KMComposeWin::KMComposeWin( const KMime::Message::Ptr &aMsg, bool lastSignState,
+       mWasModified( false ),
+       mNumProgressUploadFile(0)
+ {
+-
++    m_verifyMissingAttachment = 0;
+     mComposerBase = new MessageComposer::ComposerViewBase( this, this );
+     mComposerBase->setIdentityManager( kmkernel->identityManager() );
+ 
