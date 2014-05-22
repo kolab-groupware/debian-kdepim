@@ -78,7 +78,6 @@ usr/share/kde4/services/kontact/specialdatesplugin.desktop
 usr/share/kde4/services/kontact/todoplugin.desktop
 usr/share/kde4/services/korganizer/datenums.desktop
 usr/share/kde4/services/korganizer/hebrew.desktop
-usr/share/kde4/services/korganizer/journalprint.desktop
 usr/share/kde4/services/korganizer/picoftheday.desktop
 usr/share/kde4/services/korganizer/thisdayinhistory.desktop
 usr/share/kde4/services/korganizer_configcolorsandfonts.desktop

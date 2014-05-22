@@ -29,4 +29,5 @@ usr/share/kde4/apps/kontactsummary/kontactsummary_part.rc
 usr/share/kde4/config.kcfg/kontact.kcfg
 usr/share/kde4/services/kcmkontactsummary.desktop
 usr/share/kde4/services/kontact/summaryplugin.desktop
+usr/share/kde4/services/kontact/journalplugin.desktop
 usr/share/kde4/services/kontactconfig.desktop
