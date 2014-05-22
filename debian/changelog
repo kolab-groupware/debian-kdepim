@@ -13,6 +13,7 @@ kdepim (4:4.13.1-1~) UNRELEASED; urgency=medium
   * New upstream patch: upstream_fix334730_kontact_crash_on_logout.patch
   * New upstream patch:
     upstream_fix334937_kmail_crashes_when_attaching_file.patch
+  * New patch: disable_has_focus_tests_failed_in_xvfb.patch
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 21 May 2014 14:18:05 +0200
 
