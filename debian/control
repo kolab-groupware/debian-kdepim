@@ -366,20 +366,6 @@ Description: event viewing library
  .
  This package is part of the KDE PIM module.
 
-Package: libfolderarchive4
-Section: libs
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: folder archive library
- This package is part of the KDE PIM module.
-
-Package: libgrammar4
-Section: libs
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: grammar library
- This package is part of the KDE PIM module.
-
 Package: libincidenceeditorsng4
 Section: libs
 Architecture: any
@@ -542,13 +528,6 @@ Description: message viewer library
  This package contains the message viewer library which implements feature-rich
  and highly configurable widget for viewing e-mail messages.
  .
- This package is part of the KDE PIM module.
-
-Package: libpimactivity4
-Section: libs
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: pim activity library
  This package is part of the KDE PIM module.
 
 Package: libsendlater4
