@@ -4,6 +4,7 @@ kdepim (4:4.13.1-1~) UNRELEASED; urgency=medium
   * Update build dependencies.
   * New library package: libnoteshared4.
   * New binary package: storageservicemanager.
+  * Update install files.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 21 May 2014 14:18:05 +0200
 

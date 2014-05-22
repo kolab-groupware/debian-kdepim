@@ -10,7 +10,9 @@ usr/lib/kde4/ktexteditorkabcbridge.so
 usr/lib/libkaddressbookprivate.so.4
 usr/lib/libkaddressbookprivate.so.4.*
 usr/share/applications/kde4/kaddressbook.desktop
+usr/share/applications/kde4/kaddressbook-importer.desktop
 usr/share/applications/kde4/contactthemeeditor.desktop
+usr/share/doc/kde/HTML/*/contactthemeeditor/
 usr/share/doc/kde/HTML/*/kabcclient/
 usr/share/icons/hicolor/*/apps/kaddressbook.png
 usr/share/icons/hicolor/scalable/apps/kaddressbook.svgz

@@ -1,7 +1,6 @@
 usr/bin/akonadi_archivemail_agent
 usr/bin/akonadi_mailfilter_agent
 usr/bin/akonadi_sendlater_agent
-usr/bin/akonadi_folderarchive_agent
 usr/bin/headerthemeeditor
 usr/bin/importwizard
 usr/bin/kmail
@@ -13,6 +12,7 @@ usr/bin/kmailcvt
 usr/bin/ktnef
 usr/bin/mboximporter
 usr/bin/pimsettingexporter
+usr/bin/sieveeditor
 usr/lib/kde4/kcm_kmail.so
 usr/lib/kde4/kcm_kmailsummary.so
 usr/lib/kde4/kcm_kpimidentities.so
@@ -35,7 +35,7 @@ usr/share/applications/kde4/importwizard.desktop
 usr/share/applications/kde4/kmail_view.desktop
 usr/share/applications/kde4/ktnef.desktop
 usr/share/applications/kde4/mboximporter.desktop
-usr/share/doc/kde/HTML/*/akonadi_folderarchive_agent/
+usr/share/applications/kde4/sieveeditor.desktop
 usr/share/doc/kde/HTML/*/akonadi_archivemail_agent/
 usr/share/doc/kde/HTML/*/akonadi_sendlater_agent/
 usr/share/doc/kde/HTML/*/headerthemeeditor/
@@ -44,6 +44,7 @@ usr/share/doc/kde/HTML/*/kmail/
 usr/share/doc/kde/HTML/*/kmailcvt/
 usr/share/doc/kde/HTML/*/ktnef/
 usr/share/doc/kde/HTML/*/pimsettingexporter/
+usr/share/doc/kde/HTML/*/sieveeditor/
 usr/share/icons/hicolor/*/apps/kmail.png
 usr/share/icons/hicolor/*/apps/kmailcvt.png
 usr/share/icons/hicolor/*/actions/ktnef_extract_all_to.png
@@ -53,7 +54,6 @@ usr/share/icons/hicolor/scalable/apps/kmail.svgz
 usr/share/icons/locolor/*/actions/ktnef_extract_all_to.png
 usr/share/icons/locolor/*/actions/ktnef_extract_to.png
 usr/share/icons/locolor/*/apps/ktnef.png
-usr/share/kde4/apps/akonadi_folderarchive_agent/akonadi_folderarchive_agent.notifyrc
 usr/share/kde4/apps/akonadi_archivemail_agent/akonadi_archivemail_agent.notifyrc
 usr/share/kde4/apps/akonadi_mailfilter_agent/akonadi_mailfilter_agent.notifyrc
 usr/share/kde4/apps/akonadi_sendlater_agent/akonadi_sendlater_agent.notifyrc
@@ -111,6 +111,8 @@ usr/share/kde4/apps/messageviewer/themes/example_fancy/header.desktop
 usr/share/kde4/apps/messageviewer/themes/example_fancy/header.html
 usr/share/kde4/apps/pimsettingexporter/pimsettingexporter.rc
 usr/share/kde4/apps/pimsettingexporter/backup-structure.txt
+usr/share/kde4/apps/sieve/
+usr/share/kde4/apps/sieveeditor/
 usr/share/kde4/config.kcfg/customtemplates_kfg.kcfg
 usr/share/kde4/config.kcfg/kmail.kcfg
 usr/share/kde4/config.kcfg/templatesconfiguration_kfg.kcfg
@@ -127,5 +129,3 @@ usr/share/kde4/services/kmail_config_misc.desktop
 usr/share/kde4/services/kmail_config_security.desktop
 usr/share/kde4/services/kontact/kmailplugin.desktop
 usr/share/kde4/servicetypes/dbusmail.desktop
-usr/share/ontology/kde/messagetag.ontology
-usr/share/ontology/kde/messagetag.trig
