@@ -161,6 +161,15 @@ Description: KDE PIM resource plugins
  .
  This package is part of KDE, and a component of the KDE PIM module.
 
+Package: storageservicemanager
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: KDE PIM storage servicce
+ This package adds storage plugins for KDE PIM applications such as
+ google-drive and dropbox.
+ .
+ This package is part of KDE, and a component of the KDE PIM module.
+
 Package: kleopatra
 Section: net
 Architecture: any
@@ -633,6 +642,17 @@ Description: management and debugging console for akonadi
  Akonadi Console is a useful utility that can be used to explore or manage
  Akonadi. Since this utility exposes Akonadi internals, it is very useful for
  debugging but may also prove handy in other cases.
+ .
+ This package is part of the KDE PIM module.
+
+Package: libnoteshared4
+Section: libs
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: notes support library
+ This library defines notes related model objects for KDE PIM module
+ applications and provides a common interface for accessing and managing
+ notes provided by Akonadi resources.
  .
  This package is part of the KDE PIM module.
 
