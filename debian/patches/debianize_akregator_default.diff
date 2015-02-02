@@ -8,9 +8,9 @@ Last-Update: 2012-04-17
 
 Index: kdepim/akregator/src/akregator_part.cpp
 ===================================================================
---- kdepim.orig/akregator/src/akregator_part.cpp	2013-03-26 14:04:21.014499565 +0000
-+++ kdepim/akregator/src/akregator_part.cpp	2013-03-26 14:04:21.010499593 +0000
-@@ -171,6 +171,20 @@
+--- kdepim.orig/akregator/src/akregator_part.cpp	2014-07-31 18:43:46.736501838 +0200
++++ kdepim/akregator/src/akregator_part.cpp	2014-07-31 18:43:46.736501838 +0200
+@@ -170,6 +170,20 @@
          spanishKde.setAttribute("xmlUrl","http://planet.kde-espana.es/");
          spanishFolder.appendChild(spanishKde);
  

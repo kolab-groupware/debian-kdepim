@@ -1,4 +1,5 @@
 usr/bin/kmail-mobile
+usr/lib/kde4/imports/org/kde/pim/mail/libmailplugin.so
 usr/share/applications/kde4/kmail-mobile.desktop
 usr/share/icons/hicolor/*/apps/kmail-mobile.png
 usr/share/icons/hicolor/*/apps/kmail-mobile-harmattan.png

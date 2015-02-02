@@ -1,3 +1,39 @@
+kdepim (4:4.14.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update build dependencies.
+  * Refresh patches.
+  * Update install files.
+  * Add new lib package: libfollowupreminder4.
+  * Update disable_has_focus_tests_failed_in_xvfb.patch.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 25 Aug 2014 00:31:34 +0200
+
+kdepim (4:4.13.3-2) unstable; urgency=medium
+
+  * Move journalplugin.desktop back to korganizer
+  * Bump korganizer's Breaks/Replaces kontact version. (Closes: #751753)
+  * Add missing licenses to the debian/copyright file (Closes: #750455)
+  * Update storageservicemanager short description. (Closes: #757736)
+    Thanks to Joao Eriberto Mota Filho.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 11 Aug 2014 14:54:48 +0200
+
+kdepim (4:4.13.3-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Remove upstream patch:
+    upstream_fix334612_selecting_text_and_pressing_enter_doesnt_replace.
+    patch
+  * Remove upstream patch:
+    upstream_fix334730_kontact_crash_on_logout.patch
+  * Remove upstream patch:
+    upstream_fix334937_kmail_crashes_when_attaching_file.patch
+  * Refresh patches.
+  * Update build dependencies.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 31 Jul 2014 21:34:01 +0200
+
 kdepim (4:4.13.1-1) experimental; urgency=medium
 
   * New upstream release.

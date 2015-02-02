@@ -1,6 +1,3 @@
-usr/bin/contactthemeeditor
-usr/bin/kabc2mutt
-usr/bin/kabcclient
 usr/bin/kaddressbook
 usr/lib/akonadi/contact/editorpageplugins/cryptopageplugin.so
 usr/lib/kde4/kaddressbookpart.so
@@ -11,16 +8,11 @@ usr/lib/libkaddressbookprivate.so.4
 usr/lib/libkaddressbookprivate.so.4.*
 usr/share/applications/kde4/kaddressbook.desktop
 usr/share/applications/kde4/kaddressbook-importer.desktop
-usr/share/applications/kde4/contactthemeeditor.desktop
-usr/share/doc/kde/HTML/*/contactthemeeditor/
-usr/share/doc/kde/HTML/*/kabcclient/
 usr/share/icons/hicolor/*/apps/kaddressbook.png
 usr/share/icons/hicolor/scalable/apps/kaddressbook.svgz
-usr/share/kde4/apps/contactthemeeditor/contactthemeeditorui.rc
 usr/share/kde4/apps/kaddressbook/
 usr/share/kde4/apps/kontact/ksettingsdialog/kaddressbook.setdlg
 usr/share/kde4/config/kaddressbook_themes.knsrc
 usr/share/kde4/services/kaddressbookpart.desktop
 usr/share/kde4/services/kcmldap.desktop
 usr/share/kde4/services/kontact/kaddressbookplugin.desktop
-usr/share/man/man1/kabcclient.1

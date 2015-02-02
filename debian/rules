@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-KDEPIM_RUNTIME_VERSION = 4:4.10.2
+KDEPIM_RUNTIME_VERSION = 4.10.2
 
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 libpkgs_gen_strict_local_shlibs = $(libpkgs_all_packages)
@@ -9,7 +9,12 @@ include /usr/share/pkg-kde-tools/qt-kde-team/2/library-packages.mk
 .PHONY: override_dh_auto_test
 
 override_dh_auto_configure:
-	$(overridden_command) -- -DKDEPIM_BUILD_MOBILE=true
+	$(overridden_command) -- \
+	-DKDEPIM_BUILD_MOBILE=FALSE -DKDEPIM_MOBILE_UI=FALSE -DDISABLE_ALL_OPTIONAL_SUBDIRECTORIES=TRUE \
+	-DBUILD_korganizer=TRUE -DBUILD_kmail=TRUE -DBUILD_korgac=TRUE -DBUILD_kaddressbook=TRUE \
+	-DBUILD_kontact=TRUE -DBUILD_kaddressbook=TRUE -DBUILD_doc=TRUE -DBUILD_akonadiconsole=TRUE \
+	-DBUILD_messagecomposer=TRUE -DBUILD_mailimporter=TRUE -DBUILD_sieveeditor=TRUE -DBUILD_importwizard=TRUE \
+	-DBUILD_agents=TRUE -DBUILD_sendlateragent=TRUE -DBUILD_archivemailagent=TRUE -DBUILD_mailfilteragent=TRUE
 
 # Strict local dependencies (there are no external ones anyway)
 override_dh_makeshlibs:
@@ -25,3 +30,6 @@ override_dh_shlibdeps:
 	    echo "Tightening dependency on kdepim-runtime to (>= $(KDEPIM_RUNTIME_VERSION)"; \
 	    sed -i '/^shlibs:[^=]\+=/{ s/\(^shlibs:[^=]\+=[[:space:]]*\|,[[:space:]]*\)\(kdepim-runtime\)\([[:space:]]*([[:space:]]*[><=]\+[^)]\+)\)\?/\1\2 (>= $(KDEPIM_RUNTIME_VERSION))/g }' debian/*.substvars; \
     fi
+
+override_dh_install:
+	$(overridden_command) --list-missing -Xmobile -Xknode -Xkleopatra -Xkdepim-dropbox

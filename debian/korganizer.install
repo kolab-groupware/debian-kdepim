@@ -1,4 +1,3 @@
-usr/bin/calendarjanitor
 usr/bin/ical2vcal
 usr/bin/kincidenceeditor
 usr/bin/korgac
@@ -44,9 +43,11 @@ usr/share/icons/hicolor/48x48/apps/korganizer.png
 usr/share/icons/hicolor/64x64/apps/korg-journal.png
 usr/share/icons/hicolor/64x64/apps/korg-todo.png
 usr/share/icons/hicolor/64x64/apps/korganizer.png
+usr/share/icons/hicolor/*/apps/quickview.png
 usr/share/icons/hicolor/scalable/apps/korg-journal.svgz
 usr/share/icons/hicolor/scalable/apps/korg-todo.svgz
 usr/share/icons/hicolor/scalable/apps/korganizer.svgz
+usr/share/icons/hicolor/scalable/apps/quickview.svgz
 usr/share/icons/oxygen/16x16/actions/smallclock.png
 usr/share/icons/oxygen/16x16/actions/upindicator.png
 usr/share/icons/oxygen/22x22/actions/checkmark.png
@@ -73,6 +74,7 @@ usr/share/kde4/config/korganizer.knsrc
 usr/share/kde4/services/kcmapptsummary.desktop
 usr/share/kde4/services/kcmsdsummary.desktop
 usr/share/kde4/services/kcmtodosummary.desktop
+usr/share/kde4/services/kontact/journalplugin.desktop
 usr/share/kde4/services/kontact/korganizerplugin.desktop
 usr/share/kde4/services/kontact/specialdatesplugin.desktop
 usr/share/kde4/services/kontact/todoplugin.desktop
