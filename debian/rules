@@ -18,7 +18,7 @@ override_dh_auto_configure:
 
 # Strict local dependencies (there are no external ones anyway)
 override_dh_makeshlibs:
-	$(overridden_command) -V
+	$(overridden_command) -Xprivate -Xlibakregatorinterfaces -Xlibknodecommon -Xlibkcal_resourceblog -Xlibkorganizer_
 
 override_dh_strip:
 	$(overridden_command) --dbg-package=kdepim-dbg
