@@ -1,3 +1,15 @@
+kdepim (4:4.13.0.1-0~kolab3) unstable; urgency=medium
+
+  * built akregator and knotes.
+
+ -- Sandro Knauß (Kolab Systems) <knauss@kolabsys.com>  Fri, 20 Feb 2015 12:17:32 +0100
+
+kdepim (4:4.13.0.1-0~kolab2) unstable; urgency=medium
+
+  * Do not create self dependencies.
+
+ -- Sandro Knauß (Kolab Systems) <knauss@kolabsys.com>  Thu, 19 Feb 2015 17:49:19 +0100
+
 kdepim (4:4.13.0.1-0~kolab1) unstable; urgency=medium
 
   * Release 4.13.0.1

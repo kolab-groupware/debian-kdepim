@@ -77,6 +77,23 @@ Description: Personal Information Management apps from the official KDE release
  This metapackage includes a collection of Personal Information Management
  (PIM) desktop applications provided with the official release of KDE.
 
+Package: akregator
+Section: web
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: kontact (<< 4:4.1.80)
+Replaces: kontact (<< 4:4.1.80)
+Homepage: http://akregator.kde.org/
+Description: RSS/Atom feed aggregator
+ Akregator is a news feed reader. It enables you to follow
+ news sites, blogs and other RSS/Atom-enabled websites without the need to
+ manually check for updates using a web browser. Akregator is designed to be
+ both easy to use and to be powerful enough to read hundreds of news sources
+ conveniently. It comes with Konqueror integration for adding news feeds and
+ with an internal browser for easy news reading.
+ .
+ This package is part of the KDE PIM module.
+
 Package: kaddressbook
 Section: utils
 Architecture: any
@@ -130,6 +147,19 @@ Description: full featured graphical email client
  mail filtering and sorting, PGP/GnuPG privacy, and inline attachments.
  .
  This package also contains Nepomuk EMail Feeder Akonadi Agent.
+ .
+ This package is part of the KDE PIM module.
+
+Package: knotes
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Suggests: kdepim-kresources
+Breaks: kontact (<< 4:4.1.80)
+Replaces: kontact (<< 4:4.1.80)
+Description: sticky notes application
+ KNotes is a program that lets you write sticky notes. The notes are saved
+ automatically when you exit the program, and they display when you open the
+ program.  The program supports printing and mailing your notes.
  .
  This package is part of the KDE PIM module.
 
