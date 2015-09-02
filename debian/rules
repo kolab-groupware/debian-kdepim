@@ -15,7 +15,7 @@ override_dh_auto_configure:
 	-DBUILD_kontact=TRUE -DBUILD_kaddressbook=TRUE -DBUILD_doc=TRUE -DBUILD_akonadiconsole=TRUE \
 	-DBUILD_messagecomposer=TRUE -DBUILD_mailimporter=TRUE -DBUILD_sieveeditor=TRUE -DBUILD_importwizard=TRUE \
 	-DBUILD_agents=TRUE -DBUILD_sendlateragent=TRUE -DBUILD_archivemailagent=TRUE -DBUILD_mailfilteragent=TRUE \
-	-DBUILD_knotes=TRUE -DBUILD_akregator=TRUE -DBUILD_notesagent=TRUE
+	-DBUILD_kleopatra=TRUE -DDISABLE_ALL_OPTIONAL_PLUGINS=TRUE
 
 # Strict local dependencies (there are no external ones anyway)
 override_dh_makeshlibs:
