@@ -1,3 +1,9 @@
+kdepim (4:4.13.0.4-0~kolab1) unstable; urgency=medium
+
+  * New upstream release 4.13.0.4
+
+ -- Sandro Knauß <knauss@kolabsys.com>  Thu, 03 Sep 2015 15:08:01 +0200
+
 kdepim (4:4.13.0.2-0~kolab2) unstable; urgency=medium
 
   * Only create supported parts
