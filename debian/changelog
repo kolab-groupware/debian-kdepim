@@ -1,3 +1,10 @@
+kdepim (4:4.13.0.5-0~kolab1) unstable; urgency=medium
+
+  * New upstream release 4.13.0.5
+  * Removed patch to compile kleopatra (is now upstream).
+
+ -- Sandro Knauß <knauss@kolabsys.com>  Fri, 04 Sep 2015 14:07:32 +0200
+
 kdepim (4:4.13.0.4-0~kolab2) unstable; urgency=medium
 
   * Add patch to compile kleopatra

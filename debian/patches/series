@@ -2,4 +2,3 @@ debianize_akregator_default.diff
 spambayes.patch
 disable_test_verify
 disable_has_focus_tests_failed_in_xvfb.patch
-0001-Make-sure-that-uulong-WId-works-on-all-platforms.patch
