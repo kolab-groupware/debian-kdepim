@@ -1,0 +1,30 @@
+From 684839e35043248bfffa6704a4e84bf19016e194 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Sandro=20Knau=C3=9F?= <knauss@kolabsys.com>
+Date: Fri, 4 Sep 2015 09:48:46 +0200
+Subject: [PATCH] Make sure that uulong->WId works on all platforms
+
+On windows WId is a struct and on linux WId is a unsigned int. That's
+why we need different casts for the different architectures.
+---
+ kleopatra/kleopatraapplication.cpp | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/kleopatra/kleopatraapplication.cpp b/kleopatra/kleopatraapplication.cpp
+index ff01bb4..06e9882 100644
+--- a/kleopatra/kleopatraapplication.cpp
++++ b/kleopatra/kleopatraapplication.cpp
+@@ -292,7 +292,11 @@ int KleopatraApplication::newInstance() {
+         // Check for Parent Window id
+         WId parentId = 0;
+         if ( args->isSet( "parent-windowid" ) ) {
++#ifdef Q_OS_WIN //krazy:exclude=cpp
+             parentId = reinterpret_cast<WId>(args->getOption( "parent-windowid" ).toULong());
++#else
++            parentId = static_cast<WId>(args->getOption( "parent-windowid" ).toULong());
++#endif
+         }
+ 
+         // Search for local keys
+-- 
+2.1.4
+
