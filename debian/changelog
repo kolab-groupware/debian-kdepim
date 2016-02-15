@@ -10,7 +10,7 @@ kdepim (4:4.13.0.6-0~kolab0) unstable; urgency=medium
 
  -- Sandro Knauß (Kolab Systems) <knauss@kolabsys.com>  Mon, 05 Oct 2015 14:38:46 +0200
 
-kdepim (4:4.13.0.5-0~kolab1) UNRELEASED; urgency=medium
+kdepim (4:4.13.0.5-0~kolab1) unstable; urgency=medium
 
   * New upstream release 4.13.0.5
 
