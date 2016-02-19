@@ -113,15 +113,15 @@ Suggests: clamav | f-prot-installer,
           procmail,
           spamassassin | bogofilter | annoyance-filter | spambayes (>= 1.0.4-6) | bsfilter | crm114
 Breaks: akonadi-kde (<< 4:4.1.3), kmailcvt (<< 4:3.90.0), kontact (<< 4:4.1.80),
-          kdepim-runtime (<< 4:4.13.0-99), kdepim-runtime (>> 4:4.13.1),
-          libmessageviewer4 (<< 4:4.13.0-99), libmessageviewer4 (>> 4:4.13.1),
-          libkdepim4 (<< 4:4.13.0-99), libkdepim4 (>> 4:4.13.1)
+          kdepim-runtime (<< 4:4.13.3-1), kdepim-runtime (>> 4:4.13.4),
+          libmessageviewer4 (<< 4:4.13.3-1), libmessageviewer4 (>> 4:4.13.4),
+          libkdepim4 (<< 4:4.13.3-1), libkdepim4 (>> 4:4.13.4)
 Replaces: akonadi-kde (<< 4:4.1.3),
           kmailcvt (<< 4:3.90.0),
           kontact (<< 4:4.1.80),
-          kdepim-runtime (<< 4:4.13.0-99), kdepim-rutime (>> 4:4.13.1),
-          libmessageviewer4 (<< 4:4.13.0-99), libmessageviewer4 (>> 4:4.13.1),
-          libkdepim4 (<< 4:4.13.0-99), libkdepim4 (>> 4:4.13.1)
+          kdepim-runtime (<< 4:4.13.3-1), kdepim-rutime (>> 4:4.13.4),
+          libmessageviewer4 (<< 4:4.13.3-1), libmessageviewer4 (>> 4:4.13.4),
+          libkdepim4 (<< 4:4.13.3-1), libkdepim4 (>> 4:4.13.4)
 Provides: imap-client, mail-reader
 Homepage: http://kontact.kde.org/kmail/
 Description: full featured graphical email client
