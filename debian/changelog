@@ -1,3 +1,9 @@
+kdepim (4:4.13.0.21-0~kolab2) unstable; urgency=medium
+
+  * install kmailcvt
+
+ -- Sandro Knauß (Kolab Systems) <knauss@kolabsys.com>  Wed, 22 Jun 2016 16:21:20 +0200
+
 kdepim (4:4.13.0.21-0~kolab1) unstable; urgency=medium
 
   * New upstream release 4.13.0.21

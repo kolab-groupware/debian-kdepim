@@ -9,6 +9,7 @@ usr/bin/kmail_antivir.sh
 usr/bin/kmail_clamav.sh
 usr/bin/kmail_fprot.sh
 usr/bin/kmail_sav.sh
+usr/bin/kmailcvt
 usr/bin/sieveeditor
 usr/lib/kde4/kcm_kmail.so
 usr/lib/kde4/kcm_kmailsummary.so
@@ -37,6 +38,7 @@ usr/share/doc/kde/HTML/*/importwizard
 usr/share/doc/kde/HTML/*/kmail/
 usr/share/doc/kde/HTML/*/sieveeditor/
 usr/share/icons/hicolor/*/apps/kmail.png
+usr/share/icons/hicolor/*/apps/kmailcvt.png
 usr/share/icons/hicolor/scalable/apps/kmail.svgz
 usr/share/kde4/apps/akonadi_archivemail_agent/akonadi_archivemail_agent.notifyrc
 usr/share/kde4/apps/akonadi_mailfilter_agent/akonadi_mailfilter_agent.notifyrc
@@ -81,6 +83,7 @@ usr/share/kde4/apps/kmail2/pics/mail-thread-ignored.png
 usr/share/kde4/apps/kmail2/pics/mail-thread-watch.png
 usr/share/kde4/apps/kmail2/pics/pgp-keys.png
 usr/share/kde4/apps/kmail2/tips
+usr/share/kde4/apps/kmailcvt/pics/step1.png
 usr/share/kde4/apps/kontact/ksettingsdialog/kmail.setdlg
 usr/share/kde4/apps/messageviewer/plugins/bodypartformatter/text_calendar.desktop
 usr/share/kde4/apps/messageviewer/plugins/bodypartformatter/text_vcard.desktop
